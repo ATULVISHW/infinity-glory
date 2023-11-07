@@ -9,3 +9,1510 @@
         margin-left: 95px !important;
     }
 }
+
+
+
+
+/**
+Theme Name: Active Internet Marketing (UK)
+Author: Mike Abbott
+Author URI: https://activeinternetmarketing.co.uk
+Description: Child theme created for Active Internet Marketing (UK) website
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: activeinternetmarketing.co.uk
+Template: astra
+*/
+li.dark-text {
+    font-weight: 400;
+    color: #414143;
+}
+.aim-card-button {
+    margin-top: 2%;
+    padding: 10px 15px 10px 15px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    color: #233A4E;
+}
+#ma-card-bits {
+    padding-bottom: 2.5%;
+    position: absolute;
+    bottom: 2%;
+    right: 3%;
+}
+.dark-text {
+    font-weight: 400;
+    color: #414143;
+}
+.blue-bottom {
+    border-bottom: 2px solid #233b4e;
+}
+/* Styling Lists on Web 3.0 Pages */
+ul.aim-list-none {
+    margin-left:0;
+    list-style-position: inside;
+}
+/* End of Styling Lists on Web 3.0 Pages */
+/* Web3.0 Button Styling */
+.web3-button {
+    background-color: #233b4e;
+    color: #ffffff;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 12.5px;
+    padding-bottom: 12.5px;
+    font-weight: 700;
+    font-size: 1em;
+    border-radius: 10px;
+}
+.web3-button:hover {
+    color: #ffffff;
+    background-color: #00aeff;
+}
+/* End of Web3.0 Button Styling */
+/* AIM Cards on Web3.0 Pages */
+.aim-card.card-body {
+    color: #ffffff;
+    background-color: #233b4e;
+    border-radius: 5px;
+}
+.card-title {
+    color: #ffffff;
+    font-size: 1.7em;
+    font-weight: 700;
+    border-bottom: 1px solid #ffffff;
+}
+.aim-card {
+    transition: transform .3s; /* Animation */
+}
+.aim-card:hover {
+    transform: scale(1.08);
+}
+/* End of AIM Cards on Web3.0 Pages */
+.aim-seo-audit {
+    background-image: url("/wp-content/themes/astra-child/assets/images/seo-audit-bg.jpg");
+    background-size: cover;
+}
+.aim-black-text p {
+    color: #414143;
+    font-weight: 400;
+}
+#mega-menu-wrap-primary #mega-menu-primary>li.mega-menu-item.mega-current-menu-item>a.mega-menu-link {
+    background: transparent !important;
+}
+#mega-menu-wrap-primary #mega-menu-primary>li.mega-menu-item.mega-current-menu-item>a.mega-menu-link:hover {
+    background: transparent !important;
+}
+.location-consultant-pic img{
+    max-height: 150px;
+    max-width: 150px;
+    border-radius: 50%;
+}
+.blog-right {
+    background-color:#233b4e;
+}
+.blog-right a:hover {
+    color: #fff;
+}
+.blog-title-group {
+    background-color: #fbfbfb;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.ma-blog-social-icons {
+    background: #233b4e;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    vertical-align: middle;
+    /*padding: 30px;*/
+}
+.fl-node-5dbb5b81a264e .fl-menu .sub-menu {
+    border: 1px solid #fff;
+}
+.fl-node-5dbb5b81a264e .fl-menu .sub-menu a {
+    color: #fff !important;
+}
+.cs-stats {
+  border-right: 2px solid #00aeef;
+  width:33% !important;
+  text-align: center;
+}
+
+.cs-stats:last-child {
+  border-right:none;
+  width:33%;
+}
+.avatar {
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 50%;
+}
+.services-aim-slider {
+    margin-top: -10%;
+}
+.ev_benefitscontact input {
+    margin: 8px 0px;
+}
+._button-wrapper {
+    margin-top: 90px;
+}
+.services-color-banner {
+    min-height: 30vh;
+}
+.jumbotron {
+    padding: 10rem 2rem;
+}
+.about-us-video {
+    margin-top: -20%;
+}
+section.customer-logos.slider.slick-initialized.slick-slider {
+    height: 86px;
+}
+.about-us-blue {
+    background-color: #233B4D;
+    height: 20vh;
+}
+/* Header CTA Section Styling */
+#header-cta { float: right; padding: 5px; }
+#header-cta h1 { color: #fff; font-size:15px!important;}
+.header-cta-blue { color: #00aeef; }
+#header-cta .button { background-color: #00aeef; padding: 2px; margin: 2px; float: right; }
+#header .container .main-navigation { height: calc(100% - 32px); }
+/* End of Header CTA Section Styling */
+#aim-footer-ma {
+    padding-top: 4%;
+    background-color: #000;
+}
+#aim-footer-ma h5{
+    color: #fff;
+}
+#aim-footer-ma p {
+    color:#fff;
+    font-size: 13px;
+}
+#aim-footer-ma a {
+    color: #fff;
+    padding:0 6px 0 0;
+}
+.second-bar {
+    background-color: #233b4e;
+}
+.second-bar .social-icons {
+  font-size: 1.5em;
+}
+.second-bar .social-icons a{
+    color: #ffffff;
+}
+.aim-terms {
+    background-image: url(/wp-content/themes/astra-child/assets/images/home-top-banner.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 40vh;
+    min-height:400px;
+}
+.aim-sitemap {
+    background-image: url(/wp-content/themes/astra-child/assets/images/home-top-banner.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 40vh;
+    min-height:400px;
+}
+.header-wrap {
+    background-size: cover;
+    background-position: center center;
+    height: 40vh;
+    min-height:400px;
+}
+.aim-authors {
+    background-image: url(/wp-content/themes/astra-child/assets/images/author-banner.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 40vh;
+    min-height:400px;
+}
+@media only screen and (max-width: 768px) {
+    #mega-menu-wrap-max_mega_menu_1 .mega-menu-toggle + #mega-menu-max_mega_menu_1{
+        top: 114px !important;
+    }
+    .fl-node-619cd5755caf4 > .fl-row-content-wrap{
+        background:none !important;
+    }
+    .aim-home h1{
+        font-size: 35px;
+    }
+}
+
+
+
+@media (min-width: 320px) and (max-width: 1024px) {
+    .aim-authors {
+    background-image: url(/wp-content/themes/astra-child/assets/images/author-banner.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 2vh;
+    min-height: 50px;
+}
+}
+.aim-services-web-dev {
+    background-image: url(/wp-content/themes/astra-child/assets/images/web-development-banner.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 40vh;
+    min-height:400px;
+}
+.aim-case-studies {
+    background-image: url(/wp-content/themes/astra-child/assets/images/blog-hub-banner.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 40vh;
+    min-height:400px;
+}
+.aim-services-web-design {
+    background-image: url(/wp-content/uploads/2019/10/Web-Development-Banner.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 40vh;
+    min-height:400px;
+}
+.aim-services-social-media {
+    background-image: url(/wp-content/themes/astra-child/assets/images/social-media-banner.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 40vh;
+    min-height:400px;
+}
+.aim-services-web-video {
+    background-image: url(/wp-content/uploads/2019/10/web-video-banner.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 40vh;
+    min-height:400px;
+}
+.aim-services-page {
+    background-image: url(/wp-content/themes/astra-child/assets/images/home-top-banner.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 40vh;
+    min-height:400px;
+}
+.aim-services-seo {
+    background-image: url(/wp-content/themes/astra-child/assets/images/home-top-banner.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 40vh;
+    min-height:400px;
+}
+.aim-services-influencer-marketing {
+    background-image: url(/wp-content/uploads/2019/10/web-video-banner.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 40vh;
+    min-height:400px;
+}
+.aim-services-instagram-shopping {
+    background-image: url(/wp-content/themes/astra-child/assets/images/home-top-banner.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 40vh;
+    min-height:400px;
+}
+.aim-services-dm {
+    background-image: url(/wp-content/themes/astra-child/assets/images/digital-marketing-banner.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 40vh;
+    min-height:400px;
+}
+.aim-services-local-seo {
+    background-image: url(/wp-content/themes/astra-child/assets/images/home-top-banner.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 40vh;
+    min-height:400px;
+}
+.aim-services-contmark {
+    background-image: url(/wp-content/themes/astra-child/assets/images/content-marketing-banner.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 40vh;
+    min-height:400px;
+}
+.aim-services-ppc {
+    background-image: url(/wp-content/themes/astra-child/assets/images/home-top-banner.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 40vh;
+    min-height:400px;
+}
+.aim-services-cro {
+    background-image: url(/wp-content/themes/astra-child/assets/images/cro-banner-new.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 40vh;
+    min-height:400px;
+}
+.aim-resources-hub {
+    background-image: url(/wp-content/themes/astra-child/assets/images/local-seo-banner.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 40vh;
+    min-height:400px;
+}
+.aim-ma-blog-header {
+    background-image: url(/wp-content/themes/astra-child/assets/images/blog-hub-banner.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 40vh;
+    min-height:400px;
+}
+/*.aim-resource-heading {
+    text-align: center;
+    padding-top: 7%;
+    padding-bottom: 5%;
+}*/
+.aim-ma-blog-header-text {
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.aim-home {
+      background-image: url(https://activeinternetmarketing.co.uk/wp-content/uploads/2021/12/home-top-banner1.jpg);
+      background-size: cover;
+    height: 40vh;
+    min-height:400px;
+    }
+    .aim-home h1{
+        font-size: 42px;
+        font-weight: 700;
+    }
+    .aim-about-us {
+      background-image: url(/wp-content/uploads/2019/10/About-Us-Banner-1.jpg);
+      background-size: cover;
+    height: 40vh;
+    min-height:400px;
+    }
+/*    .aim-about-us h1{
+        font-size: 32px;
+        font-weight: 700;
+    }*/
+    .aim-contact {
+      background-image: url(/wp-content/themes/astra-child/assets/images/contact-us-banner.jpg);
+      background-size: cover;
+    height: 40vh;
+    min-height:400px;
+    }
+    .aim-home .aim-ma-button {
+        font-size:16px;
+        font-weight:700;
+    }
+    nav ul#menu-main-menu li ul.sub-menu li a{
+        color:#ffffff !important;
+    }
+    nav ul#menu-main-menu li ul.sub-menu li span.fl-menu-toggle{
+        color:#ffffff !important;
+    }   
+.aim-home-footer {
+      background-image: url(/wp-content/themes/astra-child/assets/images/home-footer-banner.jpg);
+      background-size: cover;
+      margin-bottom: 0px !important;
+      padding-top: 5%;
+      padding-bottom:5%;
+    }
+.aim-casestudy-footer {
+    background-image: url(/wp-content/themes/astra-child/assets/images/sitewide-footer-banner.jpg);
+    background-size: cover;
+    margin-bottom: 0px !important;
+    padding-top: 5%;
+    padding-bottom:5%;
+}
+.aim-ma-button {
+    padding: .5em 1em;
+    text-align: center;
+    line-height: 1.1em;
+    width: auto;
+    color: #ffffff !important;
+    text-decoration: none !important;
+    background-color: #00adef;
+    border: 1px solid #0077a2;
+    margin: 10px auto;
+    border-radius: 0px;
+    cursor: pointer;
+    display: inline-block;
+    clear: both;
+    transition: all 100ms ease-in-out;
+    -webkit-transition: background 100ms ease-in-out;
+    -moz-transition: background 100ms ease-in-out;
+    -o-transition: background 100ms ease-in-out;
+}
+.aim-ma-button:hover{
+        background: #233b4e;
+    color: #ffffff;
+}
+.my-auto{
+    color: #414143;
+    font-weight: 400;
+}
+.digimH h2{
+    font-size: 2.8em !important;
+}
+.box-simple {
+    /*transition: transform 1s ease-in-out;*/
+    padding: 20px;
+    transition: background-color 0.5s ease-in-out;
+    transition: box-shadow ease-in-out;
+}
+.box-simple:hover {
+    /*transform: scale(1.05);*/
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+}
+.heroback {
+    background-color: rgba(0,0,0,0.7) !important;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 2px !important;
+    padding-right: 2px !important;
+    line-height:normal;
+}
+.headerblue {
+        color:#00aeff;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 2px !important;
+        padding-right: 2px !important;
+}
+.fl-photo-content img{
+    max-width:197px !important;
+    width:100% !important;
+}
+/* CSS For White Paper Template */
+.aim-wp-heading {
+    text-align: center;
+    padding-top: 15%;
+    padding-bottom: 2%;
+}
+#white-paper-hero {
+    background-size: cover!important;
+    background-position: center center !important;
+    height: 40vh;
+    min-height:400px;
+}
+.aim-wp-heading h1{
+    color: #fff;
+    font-weight: 700;
+}
+.aim-wp-form .aim-cp-form h3{
+    font-size: 3em;
+    font-weight: 300;
+    color: #243c4f;
+    line-height: 58px;
+}
+
+.banner {
+    background: url(https://activeinternetmarketing.co.uk/wp-content/uploads/2023/09/home-top-banner1.jpg);
+    /* text-align: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section-2 {
+    padding: 0 10%;
+    text-align: center;
+    margin: 70px 0 40px !important;
+    font-size: 20px;
+    color: #233b4e;
+}
+.banner h1 {
+    text-align: center !important;
+    width: 100%;
+    margin: 179px 0px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 89px;
+    text-transform: capitalize;
+}
+.section_3_one {
+    border: 1px solid black;
+    padding: 40px 23px;
+    font-size: 29px;
+    color: #000000;
+    font-weight: 600;
+        margin-bottom: 64px;
+        border-radius: 39px;
+}
+.section_7 p {
+    border: 1px solid #007ec7;
+    padding: 7px;
+}
+.section_3_one span {
+    color: #252468;
+    padding: 0px 13px;
+    font-weight: bold !important;
+    font-size: 40px;
+}
+
+.section_3_two {
+    background: #cfe2f3;
+    text-align: center;
+    padding: 128px 11px;
+    border-radius: 39px;
+    border: 1px solid black;
+    
+    padding-bottom: 23px;
+}
+.section_3_two h2 {
+    margin-bottom: 52px;
+}
+
+.section_5 {
+    background: #f2f2f2;
+    height: 127px;
+    padding: 34px 0px;
+}
+.section_7 h1 {
+    font-size: 20px;
+    padding: 10px 15px;
+    color: #007ec7;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.section_7 {
+    margin-bottom: 50px;
+}
+.section_7 button {
+ margin: auto;
+    display: block;
+    padding: 12px 42px;
+    font-size: 24px;
+    margin-top: 41px !important;
+    margin-bottom: 42px !important;
+}
+.section_5 button {
+  font-size: 24px;
+    margin: auto;
+    display: block;
+    padding: 12px 42px;
+}
+.section_8 h1 {
+    padding: 1px 15px;
+    text-align: center !important;
+    width: 100%;
+        margin-top: 67px;
+}
+.web_faq p {
+    color: black;
+    font-weight: 400;
+    display: none;
+}
+.section_10 img.lazyloaded {
+    width: 30%;
+    text-align: center !important;
+    max-width: 100%;
+    margin: auto;
+    /* text-align: center; */
+}
+.section_8 .web_faq {
+    /* color: #fff !important; */
+    width: 100%;
+    /* border: 1px solid #000; */
+    padding: 7px 9px;
+    background: #233b4e;
+    text-transform: capitalize;
+    margin: 15px 1px;
+    font-size: 18px;
+    border-radius: 14px;
+}
+.section_8 h2 {
+    color: #fff;
+    font-size: 26px;
+}
+.section_8 p {
+    color: #fff;
+    padding: 10px 14px;
+}
+
+.section_9 h1 {
+    text-align: center;
+    margin: 39px 4px;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: #233b4e;
+        margin-top: 67px;
+}
+.section_9 button {
+    margin: auto;
+    padding: 13px 57px;
+    font-size: 24px;
+    margin-top: 41px;
+    margin-bottom: 41px;
+}
+.section_10 {
+    background: #007ec7 !important;
+    padding: 90px 0;
+        margin-bottom: 65px;
+}
+.section_10 h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    padding: 18px 1px;
+}
+.aim-wp-form .caldera-grid .btn {
+    width: 100%;
+}
+.section_10 .col-sm-3 {
+    text-align: center;
+}
+.section_6 h1 {
+    color: #fff;
+    font-weight: 400;
+}
+.section_10 h1 {
+    text-align: center;
+    font-size: 34px;
+    text-transform: capitalize;
+    font-weight: 400;
+    margin-bottom: 46px;
+    color: #f9f9f9;
+}
+.aim-wp-form.caldera-grid .btn {
+    color: #ffffff !important;
+    background-color: #00aeef;
+    border: 1px solid #233b4e;
+    margin: 10px auto;
+    font-size: 1.25em;
+    text-transform: uppercase;
+}
+.aim-wp-form .caldera-grid .btn:hover{
+        background: #233b4e;
+    color: #ffffff;
+}
+.aim-cp-form .caldera-grid .btn {
+    color: #ffffff !important;
+    background-color: #00aeef !important;
+    border: 1px solid #233b4e !important;
+    margin: 10px auto;
+    font-size: 1.25em;
+    text-transform: uppercase;
+}
+.aim-cp-form .caldera-grid .btn {
+    float:right;
+}
+.aim-cp-form .caldera-grid .btn:hover{
+        background: #233b4e !important;
+    color: #ffffff !important;
+}
+.aim-wp-form .caldera-grid .form-control {
+    width: 100%;
+    height: 34px;
+    padding: 10px;
+    border: 1px solid #243c4f;
+    border-radius: 8px;
+}
+.aim-cp-form .caldera-grid .form-control {
+    /*height: 34px;*/
+    padding: 10px;
+    border: 1px solid #243c4f;
+    border-radius: 8px
+}
+/* End of CSS For White Paper Template */
+/* CSS For Case Study Template */
+.aim-cs-heading {
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 7%;
+}
+#case-study-hero {
+    background-size: cover!important;
+    background-position: center center !important;
+    height: 40vh;
+    min-height:400px;
+}
+.aim-cs-heading h1{
+    color: #fff;
+    font-weight: 700;
+}
+.box-wrapper{
+  float:left;
+}
+
+.box-wrapper{
+  border-right: 3px solid #00aeef;
+  width:33% !important;
+  text-align: center;
+}
+
+.row-wrapper .box-wrapper:last-child{
+  border-right:none;
+  width:33%;
+}
+/* End of CSS For Case Study Template */
+/* Styling for Icons on Contact Page */
+.icon-wrapper {
+    background: rgba(50,79,99,1);
+    border: 3px solid #56b1e2;
+    line-height: 52px;
+    border-radius: 100px;
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    color: #fff;
+    -webkit-box-shadow: inset 5px 5px 0px 0px rgba(40,63,79,1);
+    -moz-box-shadow: inset 5px 5px 0px 0px rgba(40,63,79,1);
+    box-shadow: inset 5px 5px 0px 0px rgba(40,63,79,1);
+    transition: all 0.2s;
+    cursor: pointer;
+}
+/* End of Styling for Icons on Contact Page */
+/* Service Free Section Styling */
+.service-page-boxes {
+    background: #f2f2f2;
+    padding-bottom: 3%
+    padding-top: 3%;
+}
+
+.service-page-boxes .service-title {
+    text-align: center;
+    color: #fff;
+}
+
+.service-post {
+    background: #8EA784;
+    padding: 30px;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    z-index: 12;
+    margin-bottom: 30px;
+    -moz-box-shadow: 0 5px 4px -4px rgba(0, 0, 0, 0.08);
+    -webkit-box-shadow: 0 5px 4px -4px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 5px 4px -4px rgba(0, 0, 0, 0.08);
+}
+.service-post-2 {
+    background: #A7A5B1;
+    padding: 30px;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    z-index: 12;
+    margin-bottom: 30px;
+    -moz-box-shadow: 0 5px 4px -4px rgba(0, 0, 0, 0.08);
+    -webkit-box-shadow: 0 5px 4px -4px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 5px 4px -4px rgba(0, 0, 0, 0.08);
+}
+.service-post-3 {
+    background: #7E959B;
+    padding: 30px;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    z-index: 12;
+    margin-bottom: 30px;
+    -moz-box-shadow: 0 5px 4px -4px rgba(0, 0, 0, 0.08);
+    -webkit-box-shadow: 0 5px 4px -4px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 5px 4px -4px rgba(0, 0, 0, 0.08);
+}
+.service-post-4 {
+    background: #C98A59;
+    padding: 30px;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    z-index: 12;
+    margin-bottom: 30px;
+    -moz-box-shadow: 0 5px 4px -4px rgba(0, 0, 0, 0.08);
+    -webkit-box-shadow: 0 5px 4px -4px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 5px 4px -4px rgba(0, 0, 0, 0.08);
+}
+
+.service-page-boxes .service-content {
+    position: relative;
+    z-index: 13;
+}
+
+.service-page-boxes .service-icon {
+    margin: 10px 0 20px 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    text-align: center;
+    border: 2px solid #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 50px;
+    -moz-transition: color, 250ms;
+    -o-transition: color, 250ms;
+    -webkit-transition: color, 250ms;
+    transition: color, 250ms;
+}
+
+.service-page-boxes .service-post:hover .service-icon {
+    border-color: #fff;
+}
+
+.service-page-boxes .service-icon i {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.service-page-boxes .service-post:hover .service-icon i {
+    color: #fff;
+}
+
+.service-page-boxes .service-title {
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 15px;
+    -moz-transition: color, 250ms;
+    -o-transition: color, 250ms;
+    -webkit-transition: color, 250ms;
+    transition: color, 250ms;
+}
+
+.service-page-boxes .service-post:hover .service-title {
+    color: #fff;
+}
+
+.service-page-boxes .service-description {
+    color: #fff;
+}
+
+.service-page-boxes .service-post:hover .service-description {
+    color: #fff;
+}
+
+/*.service-page-boxes .service-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 11;
+    width: 100%;
+    height: 0px;
+    background: #233B4D;
+    -moz-transition: width, 250ms;
+    -o-transition: width, 250ms;
+    -webkit-transition: width, 250ms;
+    transition: width, 250ms;
+}*/
+
+
+/*hover-background-color effect*/
+
+.service-page-boxes .service-post:hover .service-hover {
+    height: 100%;
+}
+/* End of Service Free Boxes Styling */
+/* Slider */
+.slick-slide {
+    margin: 0px 20px;
+}
+
+.slick-slide img {
+    width: 100%;
+}
+
+.slick-slider
+{
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+            user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list
+{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus
+{
+    outline: none;
+}
+.slick-list.dragging
+{
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+    -webkit-transform: translate3d(0, 0, 0);
+       -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+         -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.slick-track
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+}
+.slick-track:before,
+.slick-track:after
+{
+    display: table;
+    content: '';
+}
+.slick-track:after
+{
+    clear: both;
+}
+.slick-loading .slick-track
+{
+    visibility: hidden;
+}
+
+.slick-slide
+{
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+[dir='rtl'] .slick-slide
+{
+    float: right;
+}
+.slick-slide img
+{
+    display: block;
+}
+.slick-slide.slick-loading img
+{
+    display: none;
+}
+.slick-slide.dragging img
+{
+    pointer-events: none;
+}
+.slick-initialized .slick-slide
+{
+    display: block;
+}
+.slick-loading .slick-slide
+{
+    visibility: hidden;
+}
+.slick-vertical .slick-slide
+{
+    display: block;
+    height: auto;
+    border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+    display: none;
+}
+
+.icon-background {color:#233B4E;}
+.icon-foreground {color:#ffffff;}
+#find-me-section {padding-top: 2%; padding-bottom: 2%;}
+
+@media only screen and (max-width: 578px) {
+    .aim-home h1{
+        font-size: 30px;
+    }
+    .ftb{
+        width: 100% !important;
+float: none !important;
+max-width: 100% !important;
+flex: auto;
+    }
+}
+@media only screen and (max-width: 360px) {
+    .aim-home h1{
+        font-size: 21px;
+    }
+}
+
+
+/* Custom Case Study */
+.cbcSec {
+    border-top: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;
+    padding: 5px 0;
+}
+.csContentSec {
+    padding-top: 60px;
+}
+.csFilterSec {
+    padding: 30px 0;
+    margin: 30px 0 0;
+    border-top: 1px solid #e1e1e1;
+    background-color: #fbfbfb;
+}
+.csFilterSec h3 {
+    font-size: 1.125em;
+    font-weight: bold;
+    color: #00aeef; 
+}
+.csFilterSec select {
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    background-color: #fff;
+}
+.csNoDataFound {
+    padding: 50px 0 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.csPostBlockRow {
+    width: 100%;
+    overflow: hidden;
+    clear: both;
+}
+.csPostBlock .csPostImgBg {
+    padding: 30px 30px 1px;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    position: relative;
+}
+.csPostBlock .csPostImgBg .csPostImgBgOverlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.csPostBlock .csPostImgBg:hover .csPostImgBgOverlay {
+    background-color: rgba(0, 0, 0, 0.65);
+}
+.csPostBlock .csPostImgBg .csPostBlockContent {
+    color: #fff;
+    padding: 30px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.csPostBlock .csPostImgBg:hover .csPostBlockContent {
+    bottom: 15px;
+}
+.csPostBlock .csPostImgBg .csPostBlockContent h3 {
+    font-size: 1.5em;
+    line-height: 1.2;
+    font-weight: bold;
+    color: #fff;
+}
+.csPostBlock .csPostImgBg .csPostBlockContent h3 a {
+    color: #fff;
+}
+.csPostBlock .csPostImgBg .csPostBlockContent p {
+    padding: 0;
+    margin: 0;
+}
+.csPostBlock {
+    float: left;
+}
+.csPostBlockRow:nth-child(even) .csPostBlock {
+    float: right;
+}
+.csPostBlock:nth-child(1) { width: 50%; }
+.csPostBlock:nth-child(2),
+.csPostBlock:nth-child(3) { width: 25%; }
+.csPostBlock:nth-child(4) { width: 50%; }
+.csPostBlock:nth-child(1) .csPostImgBg { height: 580px; }
+.csPostBlock:nth-child(2) .csPostImgBg,
+.csPostBlock:nth-child(3) .csPostImgBg { height: 290px; }
+.csPostBlock:nth-child(4) .csPostImgBg { height: 290px; }
+
+.mega-menu-wrap > ul > li > ul.mega-sub-menu {
+    top: 74px !important;
+}
+.mega-menu-wrap > ul > li > ul.mega-sub-menu::before {
+    content: ' ';
+    width: 100%;
+    height: 50px;
+    display: block !important;
+    position: absolute;
+    top: -46px;
+    left: 0;
+}
+
+.mega-servicesh {
+    width: 30% !important;
+}
+.mega-menu-custom-col {
+    width: 35% !important;
+}
+.mega-menu-custom-col .mega-sub-menu .mega-menu-item .textwidget {
+    border-width: 0 0 2px !important;
+    border-style: solid !important;
+    border-color: #4f6271 !important;
+    clear: both !important;
+    padding-bottom: 25px !important; 
+    font-size: 14px;
+    min-height: 200px;
+}
+.mega-menu-custom-col .mega-sub-menu .mega-menu-item:nth-child(1) .textwidget {
+    border-top-width: 2px !important;
+    padding-top: 25px !important;
+    margin-top: 10px !important;
+    min-height: 255px;
+}
+.mega-menu-custom-col .mega-sub-menu .mega-menu-item .textwidget img {
+    max-width: 90px !important;
+    margin-right: 15px !important;
+}
+.mega-menu-custom-col .mega-sub-menu .mega-menu-item .textwidget p {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.mega-menu-custom-col .mega-sub-menu .mega-menu-item a {
+    font-weight: bold;
+    color: #fff;
+    display: block;
+}
+.mega-menu-custom-col .mega-sub-menu .mega-menu-item a:hover {
+    color: #00aeef;
+}
+.mega-menu-custom-col .mega-sub-menu .mega-menu-item .textwidget .cmmSubMenu {
+    font-size: 12px;
+    font-weight: 300;
+    list-style: none;
+    padding: 0; 
+    margin: -10px 0 0 110px;
+}
+.mega-menu-custom-col .mega-sub-menu .mega-menu-item .textwidget .cmmSubMenu li {
+    margin: 0 0 10px;
+    padding: 0 0 0 20px;
+    background: url('/wp-content/uploads/2022/02/bullet-1.png') no-repeat 0 4px;
+}
+
+#mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-megamenu > ul.mega-sub-menu {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    max-height: 500px;
+    overflow-y: scroll;
+}
+
+/* PIYUSH */
+.ev_banner h1 span, .ev_banner h2 span {
+    color: #fff;
+    font-size: 42px;
+    font-weight: 700;
+    padding: 5px 20px !important;
+}
+.ev_banner {
+    padding: 8em 0 50px;
+    background: url(https://activeinternetmarketing.co.uk/wp-content/uploads/2021/12/home-top-banner1.jpg) no-repeat center center/cover;
+    height: 40vh;
+    min-height: 340px;
+    text-align: center;
+}
+.ev_banner h1 span {
+    background: #000;
+    padding-bottom: 20px !important;
+}
+.ev_banner h2 span {
+    background: #007ec7;
+}
+.ev_benefitscontact h2, .ev_benefitscontact h3 {
+    text-transform: uppercase;
+    font-size: 38px;
+    color: #00649a;
+    font-weight: bold;
+}
+.ev_benefitscontact h3 {
+    color: #00649a;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+.ev_benefitscontact p {
+    color: #233b4e;
+    font-weight: 400;
+}
+.ev_benefitscontact ul {
+    margin: 0;
+    list-style-type: none;
+}
+.ev_benefitscontact ul.ev_benefits li {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    margin: 11px 0;
+    background: linear-gradient(45deg,rgba(0,174,239,.2),transparent);
+    border-radius: 50px;
+    color: #00669d;
+    padding: 5px 10px;
+}
+.ev_benefitscontact ul.ev_benefits li:before {
+    content: '\f00c';
+    font-family:'FontAwesome';
+    width: 28px;
+    float: left;
+    height: 28px;
+    margin-right: 5px;
+    text-align: center;
+}
+.ev_benefitscontactbe {
+    background: #fff;
+    padding: 0 50px 0 0;
+}
+.ev_form li {
+    float: left;
+    width: 100% !important;
+}
+.ev_form li * {
+    margin: 0 !important;
+}
+
+.ev_form {
+    float: left;
+    width: 100%;
+}
+
+.ev_benefitscontactcon .gform_legacy_markup_wrapper {
+    margin: 0 !important;
+}
+
+.ev_form input, .ev_form select, .ev_form textarea {float: left;width: 100%;margin-bottom: 10px !important;}
+
+.ev_form  label {
+    color: #fff;
+    margin-bottom: 5px !important;
+}
+.ev_steps {
+    text-align: center;
+}
+.ev_calltoaction {
+    margin: 50px 0 0 0;
+    text-align: center;
+}
+
+.ev_calltoaction a {
+    background: #007ec7;
+    color: #fff;
+    padding: 15px 40px;
+    border-radius: 10px;
+}
+.page-template-page-two .ev_calltoaction {
+    margin: 0;
+}
+.page-template-page-two .ev_casestudies {
+    margin: 70px 0;
+}
+.page-template-page-two .ev_steps {
+    margin-bottom: 70px;
+}
+.gform_legacy_markup_wrapper {
+    margin-top: 88px !important;
+}
+.ev_steps .ev_nums {
+    background: #007ec7;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    display: inline-block;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+}
+.ev_steps h3 {
+    margin: 20px 0 10px;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: bold;
+}
+.ev_steps p {
+    color: #000;
+}
+.ev_steps .ev_step {
+    border: 1px solid #f1f1f1;
+    padding: 40px 20px;
+    border-radius: 4px;
+}
+.ev_steps .col-sm-3:nth-child(even) .ev_step {
+    background: #f9f9f9;
+}
+.ev_stepscntnt {
+    text-align: center;
+    margin: 60px 0 20px;
+}
+.ev_stepscntnt h2, .ev_stepscntnt h3 {
+    text-transform: uppercase;
+    font-size: 38px;
+    color: #000;
+    font-weight: 700;
+}
+.ev_stepscntnt h3 {
+    color: #007ec7;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+.ev_stepscntnt p {
+    color: #000;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 0 10%;
+}
+.ev_faqs {
+    margin: 70px 0;
+    background: #233b4e;
+    padding: 50px 20%;
+}
+
+.ev_faqs h2 {
+    text-transform: uppercase;
+    font-size: 38px;
+    color: #fff;
+    font-weight: 700;
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.ev_faqs .web_faq {
+    float: left;
+    width: 100%;
+    border-bottom: 2px solid #fff;
+    padding: 0 20px;
+}
+.ev_faqs .web_faq h3 {
+    color: #fff;
+    font-size: 18px;
+    line-height: 60px;
+    cursor: pointer;
+    font-weight: normal;
+}
+.ev_faqs h3:after {
+    content: '\f107';
+    font-family:'FontAwesome';
+    float: right;
+    color: #fff;
+}
+.ev_faqs .web_faq p {
+    color: #fff;
+}
+.ev_casestudies {
+    margin-bottom: 70px;
+}
+
+.ev_casestudies h2 {
+    text-transform: uppercase;
+    font-size: 38px;
+    color: #000;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.ev_casestudies .ev_casestudy {
+    border: 1px solid #f1f1f1;
+    border-radius: 4px;
+    overflow: hidden;
+    padding: 18px;
+}
+
+.ev_casestudies .ev_casestudy img {
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.ev_casestudies .ev_casestudy h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #233b4e;
+}
+
+.ev_casestudies .ev_casestudy p {
+    margin: 0;
+}
+.page-template-page-one .ev_casestudies {
+    margin-bottom: 20px;
+}
+/*PIYUSH*/
+@media only screen and (max-width: 768px) {
+.csPostBlock:nth-child(1) { width: 100%; }
+.csPostBlock:nth-child(2),
+.csPostBlock:nth-child(3) { width: 100%; }
+.csPostBlock:nth-child(4) { width: 100%; }
+.csPostBlock:nth-child(1) .csPostImgBg { height: 300px; }
+.csPostBlock:nth-child(2) .csPostImgBg,
+.csPostBlock:nth-child(3) .csPostImgBg { height: 300px; }
+.csPostBlock:nth-child(4) .csPostImgBg { height: 300px; }
+    #mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-megamenu > ul.mega-sub-menu {
+        padding-top: 10px;
+        padding-bottom: 20px;
+        max-height: auto;
+        overflow-y: none;
+    }
+    #mega-menu-wrap-primary #mega-menu-primary li.mega-menu-megamenu > ul.mega-sub-menu > li.mega-menu-row .mega-menu-column > ul.mega-sub-menu > li.mega-menu-item {
+        padding: 0 !important;
+    }
+    #mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-megamenu > ul.mega-sub-menu {
+        padding: 5px 20px !important;
+    }
+    .mobile-menu-custom-col .mega-sub-menu .mega-menu-item .textwidget,
+    .mobile-menu-custom-col .mega-sub-menu .mega-menu-item:nth-child(1) .textwidget {
+        width: 100%;
+        text-transform: capitalize;
+        padding-bottom: 10px;
+    }
+    .mobile-menu-custom-col .mega-sub-menu .mega-menu-item .textwidget strong,
+    .mobile-menu-custom-col .mega-sub-menu .mega-menu-item:nth-child(1) .textwidget strong {
+        font-weight: 400;
+        font-size: 12px;
+    }
+    .mobile-menu-custom-col .mega-sub-menu .mega-menu-item .textwidget .cmmSubMenu {
+        font-size: 12px;
+        font-weight: 300;
+        list-style: none;
+        padding: 0; 
+        margin: 0;
+        text-transform: capitalize;
+    }
+}
+
+
+@media(max-width: 668px){
+.ev_banner h1 span, .ev_banner h2 span {
+    font-size: 18px;
+}
+#aim-footer-ma {
+    text-align: center;
+}
+    .page-template-page-one .section-2 {
+    margin: 30px 0 20px !important;
+}
