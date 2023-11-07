@@ -1,0 +1,165 @@
+.sliderlist {
+    width: 20rem;
+    height: 20rem;
+    background: #e5e5e5;
+    display: inline-block;
+    text-align: center;
+    border-radius: 5%;
+    position: relative;
+    overflow: hidden;
+    margin: 7rem 2rem 0 2rem;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.sliderlist:hover {
+    transform: scale(1.1);
+}
+
+.sliderlist>.img-audio-list {
+    width: 20rem;
+    height: 17rem;
+    background-size: cover;
+}
+
+.sliderlist>.para {
+    background-color: pink;
+    padding-bottom: 3rem;
+}
+
+#audio-slider-menu {
+    position: relative;
+    width: 95%;
+    height: 26rem;
+    top: 1rem;
+    background-color: rgb(241, 241, 241);
+    margin: 0 2rem 0 2rem;
+    /* border-radius: 5rem; */
+}
+
+#audio-cards {
+    width: 80%;
+    overflow: hidden;
+    white-space: nowrap;
+    display: block;
+    list-style: none;
+    padding: 0;
+    position: relative;
+    left: 10%;
+    bottom: 60px;
+}
+
+.sliderlist p {
+    width: 300px hidden;
+}
+
+#audio-prev {
+    display: inline-block;
+    position: absolute;
+    left: 2%;
+    cursor: pointer;
+    font-size: 60px;
+    z-index: 1;
+    width: 50px;
+    height: 50px;
+}
+
+#audio-next {
+    display: inline-block;
+    position: absolute;
+    right: 2%;
+    cursor: pointer;
+    font-size: 60px;
+    z-index: 1;
+    width: 50px;
+    height: 50px;
+}
+
+#audio-prev,
+#audio-next {
+    margin-top: 11rem;
+    color: #aaaaaa;
+}
+
+
+
+@media (min-width: 1026px) {
+    #audio-slider-menu {
+        width: 95%;
+        height: 22rem;
+        top: 0.5rem;
+        margin: 0 2% 0 2%;
+    }
+
+    .sliderlist {
+        width: 17rem;
+        height: 17rem;
+        background-color: white;
+        display: inline-block;
+        text-align: center;
+        border-radius: 5%;
+        position: relative;
+        overflow: hidden;
+        margin: 6rem 1rem 0 1rem;
+        transition: transform 0.3s;
+    }
+
+    .sliderlist>.img-audio-list {
+        width: 17rem;
+        height: 14rem;
+        background-size: cover;
+    }
+
+    .sliderlist>.para {
+        background-color: pink;
+        padding-bottom: 3rem;
+    }
+
+    #audio-prev,
+    #audio-next {
+        margin-top: 9.5rem;
+    }
+}
+
+/*                     media for max-450                      */
+
+
+
+@media (max-width:450px) {
+    #audio-slider-menu {
+        width: 95%;
+        height: 15rem;
+        top: 0.5rem;
+        margin: 0 2% 0 2%;
+    }
+
+    .sliderlist {
+        width: 10rem;
+        height: 10rem;
+        background-color: white;
+        display: inline-block;
+        text-align: center;
+        border-radius: 5%;
+        position: relative;
+        overflow: hidden;
+        margin: 6rem 1rem 0 1rem;
+        transition: transform 0.3s;
+    }
+
+    .sliderlist>.img-audio-list {
+        width: 11rem;
+        height: 7rem;
+        background-size: cover;
+    }
+
+    .sliderlist>.para {
+        background-color: pink;
+        padding-bottom: 3rem;
+    }
+
+    #audio-prev,
+    #audio-next {
+        display: none;
+        margin-top: 4.5rem;
+    }
+}

@@ -1,0 +1,11 @@
+.navbar-brand {
+    display: flex;
+    justify-content: center;
+    margin-left: 470px;
+}
+
+@media screen and (max-width: 778px) {
+    .navbar-brand{
+        margin-left: 95px !important;
+    }
+}

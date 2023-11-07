@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <a class="navbar-brand" href="#">
+            <img style="width: 15rem; height: 5rem;" src="Logo Final Last 24-10-2023/INFINITEGLORY Logo Final-01.svg" alt="not found"/>
+        </a>
+        <button class="navbar-toggler navbar-toggler-light" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon" style="color: white;"></span>
+      </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto"> <!-- 'ml-auto' pushes the menu links to the right -->
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Our Vision</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Our Approach</a>
+                </li>
+              <li class="nav-item lastitem "><Button id="btn" variant="primary">Contact Us</Button></li>  
+            </ul>
+        </div>
+    </nav>
+
+   
+<style>
+  .navbar-toggler-icon {
+        background-color: white; /* Change the background color to white */
+    }
+  .navbar{
+    background-color: black!important;
+  }
+  .nav-link {
+      color: rgb(240, 236, 240) !important;
+      font-size: 20px;
+      border-right: 2px solid white;
+      margin-right: 1rem;
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .lastitem {
+      border-right: none;
+  }
+
+  #btn {
+      background-color: rgb(128,44,204) ;
+      border: none;
+      border-radius: 1px;
+      padding: 0.8rem;
+      font-size: 18px;
+      cursor: pointer;
+      color:white;
+  }
+ 
+  .nav-item:hover .nav-link {
+      color: rgb(128,44,204) !important;
+  }
+  
+  .nav-item:hover .nav-link::after {
+      content: "";
+      display: block;
+      width: 5rem;
+      height: 3px; /* Adjust the border thickness as needed */
+      background-color: rgb(43, 169, 241) ;
+      position: absolute;
+      bottom: 0;
+  }
+</style>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

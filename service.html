@@ -1,0 +1,3120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/1b7ef7a89b.js" crossorigin="anonymous"></script>
+  <title>Service</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+</head>
+
+<style>
+  body,
+  html {
+    margin: 0;
+    padding: 0;
+  }
+
+  .getStarted {
+    background-image: url('./Logo\ Final\ Last\ 24-10-2023/services-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 10rem 0;
+    margin: 0;
+    /* Remove any margin on the container */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .main {
+    padding: 12rem 2rem 0;
+    /* Adjust padding */
+    text-align: center;
+    /* Center align content */
+    width: 50%;
+  }
+
+  .main>h1 {
+    color: white;
+    font-size: 55px;
+    font-weight: bolder;
+    display: block;
+    text-align: left;
+  }
+
+  .main>p {
+    color: white;
+    font-size: 30px;
+    display: block;
+    text-align: left;
+    margin-top: 0;
+  }
+
+  .main>button {
+    margin-top: 2rem;
+    background-color: white;
+    color: black;
+    font-size: 24px;
+    font-weight: 900px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    padding: 0.5rem;
+    display: block;
+  }
+
+  .main>button:hover {
+    color: rgb(128, 44, 204);
+  }
+
+  #prev,
+  #strategy-prev,
+  #digital-prev,
+  #web-dev-prev,
+  #email-prev,
+  #health-prev,
+  #graphic-prev,
+  #contest-prev,
+  #audio-prev,
+  #social-prev,
+  #myprev,
+  #ecomm-prev {
+    font-size: 40px !important;
+  }
+
+  #next,
+  #strategy-next,
+  #digital-next,
+  #web-dev-next,
+  #email-next,
+  #health-next,
+  #graphic-next,
+  #contest-next,
+  #audio-next,
+  #social-next,
+  #mynext,
+  #ecomm-next {
+    font-size: 40px !important;
+    right: -1% !important;
+  }
+
+  .sliderlist {
+    margin-top: 7rem;
+    margin-bottom: 0rem;
+    margin-left: 0.5rem !important;
+    margin-right: 0.5rem !important;
+  }
+
+  @media screen and (max-width: 820px) {
+
+    #strategy-cards,
+    #digital-cards,
+    #web-dev-cards,
+    #email-cards,
+    #health-cards,
+    #graphic-cards,
+    #contest-cards,
+    #audio-cards,
+    #social-cards,
+    #mycards,
+    #ecomm-cards {
+      left: 2%;
+    }
+
+    .main {
+      width: 100%;
+    }
+
+    .main>h1 {
+
+      font-size: 40px;
+      display: block;
+      text-align: left;
+    }
+
+    .main>p {
+
+      font-size: 24px;
+      display: block;
+      text-align: left;
+      margin-top: 0;
+    }
+
+  }
+
+  .content-img {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .content {
+    padding-top: 7rem;
+    padding-left: 3rem;
+    width: calc(50% - 3rem);
+    /* Calculate the width to account for padding and spacing */
+    text-align: start;
+    /* Adjust text alignment */
+  }
+
+  .content>h1 {
+    padding-bottom: 3rem;
+    color: purple;
+    font-size: 28px;
+    display: block;
+    text-align: left;
+  }
+
+  .content>p {
+    color: black;
+    font-size: 20px;
+    display: block;
+    text-align: left;
+  }
+
+  .image {
+    width: calc(50% - 3rem);
+    /* Calculate the width to account for padding and spacing */
+    padding: 3rem;
+    text-align: center;
+    /* Center align content */
+  }
+
+  .image>img {
+    height: 25rem;
+    max-width: 100%;
+    /* Ensure images are responsive */
+  }
+
+  @media screen and (max-width: 768px) {
+    .content-img {
+      flex-direction: column;
+      /* Stack content vertically on smaller screens */
+    }
+
+    .content,
+    .image {
+
+      width: 100%;
+      /* Make both content and image full width on smaller screens */
+      padding: 2rem;
+      /* Adjust padding for better spacing */
+
+    }
+
+    .content>h1 {
+      font-size: 24px;
+      padding-bottom: 2rem;
+    }
+
+    .content>p {
+      font-size: 18px;
+    }
+  }
+
+  /* On screens with a max-width of 768px (typical mobile devices) */
+  @media screen and (max-width: 768px) {
+    .Seamless .content-img {
+      flex-direction: column;
+      /* Stack content vertically on smaller screens */
+    }
+
+    .Seamless .content,
+    .Seamless .image {
+      width: 100%;
+      /* Make both content and image full width on smaller screens */
+      padding: 2rem;
+      /* Adjust padding for better spacing */
+    }
+
+    .Seamless .content>h1 {
+      font-size: 24px;
+      padding-bottom: 2rem;
+    }
+
+    .Seamless .content>p {
+      font-size: 18px;
+    }
+
+    /* Reposition the image below the content */
+    .Seamless .image {
+      order: 2;
+      /* Set the order to 2 to move it below the content */
+    }
+  }
+
+
+
+
+  .motive {
+    padding: 10rem 0;
+    margin: 0;
+    /* Remove any margin on the container */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .motive>div {
+    width: 60%;
+    text-align: start;
+  }
+
+  .motive>div>h2 {
+    margin-left: 3rem;
+    /* padding: 3rem; */
+    color: purple;
+    font-size: 36px;
+    font-weight: bold;
+  }
+
+  .motive>div>button {
+    background-color: purple;
+    color: white;
+    font-size: 24px;
+    border: none;
+    margin-left: 5.5rem;
+    padding: 0.5rem;
+  }
+
+  .motive>div>button:hover {
+    background-color: rgb(84, 4, 84);
+  }
+
+  @media screen and (max-width: 820px) {
+    .motive>.main {
+      width: 100%;
+    }
+
+    .motive>.main>h1 {
+
+      font-size: 40px;
+      display: block;
+      text-align: left;
+    }
+
+    .motive>.main>p {
+
+      font-size: 24px;
+      display: block;
+      text-align: left;
+      margin-top: 0;
+    }
+
+    .motive>div>h2 {
+      margin-left: 2rem;
+      /* padding: 3rem; */
+      color: purple;
+      font-size: 1rem;
+      font-weight: bold;
+    }
+
+    .motive>div>button {
+      background-color: purple;
+      color: white;
+      font-size: 1rem;
+      border: none;
+      margin-left: 2rem;
+      /* padding: 0.5rem; */
+    }
+
+  }
+</style>
+
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+    <a class="navbar-brand" href="#">
+      <img style="width: 9rem; height: 2rem;" src="Logo Final Last 24-10-2023/main logo.png"
+        alt="not found" />
+    </a>
+    <button class="navbar-toggler navbar-toggler-light" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon" style="color: white;"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto"> <!-- 'ml-auto' pushes the menu links to the right -->
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="service.html">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Our Vision</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Our Approach</a>
+        </li>
+        <li class="nav-item lastitem "><a href="contact_us.html"><Button id="btn" variant="primary">Contact Us</Button></a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <style>
+    body,
+    h1,
+    h2,
+    p {
+      margin: 0;
+      padding: 0;
+    }
+
+    .navbar-toggler-icon {
+      background-color: white;
+      /* Change the background color to white */
+    }
+
+    .navbar {
+      background-color: black !important;
+    }
+
+    .nav-link {
+      color: rgb(240, 236, 240) !important;
+      font-size: 20px;
+      border-right: 2px solid white;
+      margin-right: 1rem;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .lastitem {
+      border-right: none;
+    }
+
+    #btn {
+      background-color: rgb(128, 44, 204);
+      border: none;
+      border-radius: 1px;
+      padding: 0.8rem;
+      font-size: 18px;
+      cursor: pointer;
+      color: white;
+    }
+
+    .nav-item:hover .nav-link {
+      color: rgb(128, 44, 204) !important;
+    }
+
+    .nav-item:hover .nav-link::after {
+      content: "";
+      display: block;
+      width: 5rem;
+      height: 3px;
+      /* Adjust the border thickness as needed */
+      background-color: rgb(43, 169, 241);
+      position: absolute;
+      bottom: 0;
+    }
+/* 
+    @media(max-width:450px) {
+      .container-fluid-getStarted{
+        background-color: red;
+      }
+
+      
+    } */
+  </style>
+  <div>
+    <div class="container-fluid getStarted">
+      <div class="main">
+        <h1>All your digital marketing need under one roof</h1>
+        <p>Getting the right message in front of the right audience, at the right time, to drive real results</p>
+        </br><button>How can we help?</button>
+      </div>
+    </div>
+    <div>
+      <section class="comprehensive-strategy">
+        <div class="content-img">
+          <div class="content">
+            <h1>Comprehensive Strategy </h1>
+            <p>We understand that each client has their own unique needs, so we create a
+              strategic marketing plan to carefully analyze every marketing goal and
+              create clearly defined KPIs. From increasing website traffic and
+              engagement to building brand awareness and generating conversions that
+              result in sales, we’re here to take your digital marketing to the next level.</p>
+          </div>
+          <div class="image">
+            <img src="Logo Final Last 24-10-2023/Comprehensive Strategy.png" alt="not found" />
+          </div>
+        </div>
+      </section>
+      <section class="Seamless">
+        <div class="content-img">
+          <div class="image">
+            <img src="Logo Final Last 24-10-2023/Seamless Campaign Execution.png" alt="not found" />
+          </div>
+          <div class="content">
+            <h1>Strategy</h1>
+            <p>We understand that each client has their own unique needs, so we create a strategic marketing plan to
+              carefully analyze every marketing goal and create clearly defined KPIs. From increasing website traffic
+              and engagement to building brand awareness and generating conversions that result in sales, we’re here
+              to take your digital marketing to the next level.</p>
+          </div>
+
+        </div>
+
+      </section>
+      <section class="">
+        <div class="content-img">
+          <div class="content">
+            <h1>Comprehensive Strategy </h1>
+            <p>We understand that each client has their own unique needs, so we create a
+              strategic marketing plan to carefully analyze every marketing goal and
+              create clearly defined KPIs. From increasing website traffic and
+              engagement to building brand awareness and generating conversions that
+              result in sales, we're here to take your digital marketing to the next level.</p>
+          </div>
+          <div class="image">
+            <img src="Logo Final Last 24-10-2023/Optimize Campaigns.png" alt="not found" />
+          </div>
+        </div>
+      </section>
+
+      <!--                Start Slideer Section            -->
+
+      <section class="slider">
+        <section name="Services">
+          <div class="slider-service-bg">
+
+            <p>Most Popular Services</p>
+            <div id="slidermenu">
+              <div id="slidernav">
+                <div id="prev">
+                  <i class="fa-solid fa-chevron-left"></i>
+                </div>
+                <div id="next">
+                  <i class="fa-solid fa-chevron-right"></i>
+                </div>
+              </div>
+
+
+
+              <div id="mycards">
+                <div id="box1" class="sliderlist">
+                  <div class="img-list"></div>
+                  <div class="para" style="background-color: white; padding-bottom: 4rem;">
+                    <h5>eCommerce</h5>
+                  </div>
+                </div>
+
+                <div id="box2" class="sliderlist">
+                  <div class="img-list"></div>
+                  <div class="para" style="background-color: white; padding-bottom: 4rem;">
+                    <h5>Digital Media</h5>
+                  </div>
+                </div>
+                <div id="box3" class="sliderlist">
+                  <div class="img-list"></div>
+                  <div class="para" style="background-color: white; padding-bottom: 4rem;">
+                    <h5>Social Media</h5>
+                  </div>
+                </div>
+                <div id="box4" class="sliderlist">
+                  <div class="img-list"></div>
+                  <div class="para" style="background-color: white; padding-bottom: 4rem;">
+                    <h5>Stategy SEO and Analytics</h5>
+                  </div>
+                </div>
+                <div id="box5" class="sliderlist">
+                  <div class="img-list"></div>
+                  <div class="para" style="background-color: white; padding-bottom: 4rem;">
+                    <h5>Email Marketing and Automation</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+          </div>
+        </section>
+        <section name="Social-Media">
+          <div class="slider-social-bg">
+
+            <p>Social Media</p>
+            <hr />
+            <div id="social-slider-menu">
+              <div id="social-slider-nav">
+                <div id="social-prev">
+                  <i class="fa-solid fa-chevron-left"></i>
+                </div>
+                <div id="social-next">
+                  <i class="fa-solid fa-chevron-right"></i>
+                </div>
+              </div>
+              <div id="social-cards">
+                <div id="box1" class="sliderlist">
+                  <div class="img-social-list"></div>
+                  <div class="para" style="background-color: white; padding-bottom: 4rem;">
+                    <h5>eCommerce</h5>
+                  </div>
+                </div>
+
+                <div id="box2" class="sliderlist">
+                  <div class="img-social-list"></div>
+                  <div class="para" style="background-color: white; padding-bottom: 4rem;">
+                    <h5>Digital Media</h5>
+                  </div>
+                </div>
+                <div id="box3" class="sliderlist">
+                  <div class="img-social-list"></div>
+                  <div class="para" style="background-color: white; padding-bottom: 4rem;">
+                    <h5>Social Media</h5>
+                  </div>
+                </div>
+                <div id="box4" class="sliderlist">
+                  <div class="img-social-list"></div>
+                  <div class="para" style="background-color: white; padding-bottom: 4rem;">
+                    <h5>Stategy SEO and Analytics</h5>
+                  </div>
+                </div>
+                <div id="box5" class="sliderlist">
+                  <div class="img-social-list"></div>
+                  <div class="para" style="background-color: white; padding-bottom: 4rem;">
+                    <h5>Email Marketing and Automation</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section name="ecommerce">
+          <div class="slider-ecomm-bg">
+
+            <p>eCommerce</p>
+            <hr />
+
+            <div id="ecomm-slider-menu">
+              <div id="ecomm-slider-nav">
+                <div id="ecomm-prev">
+                  <i class="fa-solid fa-chevron-left"></i>
+                </div>
+                <div id="ecomm-next">
+                  <i class="fa-solid fa-chevron-right"></i>
+                </div>
+              </div>
+              <div id="ecomm-cards">
+                <div id="box1" class="sliderlist">
+                  <div class="img-ecomm-list"></div>
+                  <div class="para" style="background-color: white; padding-bottom: 4rem;">
+                    <h5>eCommerce</h5>
+                  </div>
+                </div>
+
+                <div id="box2" class="sliderlist">
+                  <div class="img-ecomm-list"></div>
+                  <div class="para" style="background-color: white; padding-bottom: 4rem;">
+                    <h5>Digital Media</h5>
+                  </div>
+                </div>
+                <div id="box3" class="sliderlist">
+                  <div class="img-ecomm-list"></div>
+                  <div class="para" style="background-color: white; padding-bottom: 4rem;">
+                    <h5>Social Media</h5>
+                  </div>
+                </div>
+                <div id="box4" class="sliderlist">
+                  <div class="img-ecomm-list"></div>
+                  <div class="para" style="background-color: white; padding-bottom: 4rem;">
+                    <h5>Stategy SEO and Analytics</h5>
+                  </div>
+                </div>
+                <div id="box5" class="sliderlist">
+                  <div class="img-ecomm-list"></div>
+                  <div class="para" style="background-color: white; padding-bottom: 4rem;">
+                    <h5>Email Marketing and Automation</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </section>
+        <section name="strategy">
+          <div class="slider-strategy-bg">
+            <p>Strategy , SEO and Analytics</p>
+            <hr />
+            <style>
+              .sliderlist {
+                width: 20rem;
+                height: 20rem;
+                background: #e5e5e5;
+                display: inline-block;
+                text-align: center;
+                border-radius: 5%;
+                position: relative;
+                overflow: hidden;
+                margin: 7rem 2rem 0 2rem;
+                cursor: pointer;
+                transition: transform 0.3s;
+              }
+
+              .sliderlist:hover {
+                transform: scale(1.1);
+              }
+
+              .sliderlist>.img-strategy-list {
+                width: 20rem;
+                height: 17rem;
+                background-size: cover;
+              }
+
+              .sliderlist>.para {
+                background-color: pink;
+                padding-bottom: 3rem;
+              }
+
+              #strategy-slider-menu {
+                position: relative;
+                width: 95%;
+                height: 26rem;
+                top: 1rem;
+                background-color: rgb(241, 241, 241);
+                margin: 0 2rem 0 2rem;
+                /* border-radius: 5rem; */
+              }
+
+              #strategy-cards {
+                width: 80%;
+                overflow: hidden;
+                white-space: nowrap;
+                display: block;
+                list-style: none;
+                padding: 0;
+                position: relative;
+                left: 10%;
+                bottom: 60px;
+              }
+
+              .sliderlist p {
+                width: 300px hidden;
+              }
+
+              #strategy-prev {
+                display: inline-block;
+                position: absolute;
+                left: 2%;
+                cursor: pointer;
+                font-size: 60px;
+                z-index: 1;
+                width: 50px;
+                height: 50px;
+              }
+
+              #strategy-next {
+                display: inline-block;
+                position: absolute;
+                right: 2%;
+                cursor: pointer;
+                font-size: 60px;
+                z-index: 1;
+                width: 50px;
+                height: 50px;
+              }
+
+              #strategy-prev,
+              #strategy-next {
+                margin-top: 11rem;
+                color: #aaaaaa;
+              }
+
+              @media (min-width: 1026px) {
+                #strategy-slider-menu {
+                  width: 95%;
+                  height: 22rem;
+                  top: 0.5rem;
+                  margin: 0 2% 0 2%;
+                }
+
+                .sliderlist {
+                  width: 17rem;
+                  height: 17rem;
+                  background-color: white;
+                  display: inline-block;
+                  text-align: center;
+                  border-radius: 5%;
+                  position: relative;
+                  overflow: hidden;
+                  margin: 6rem 1rem 0 1rem;
+                  transition: transform 0.3s;
+                }
+
+                .sliderlist>.img-strategy-list {
+                  width: 17rem;
+                  height: 14rem;
+                  background-size: cover;
+                }
+
+                .sliderlist>.para {
+                  background-color: pink;
+                  padding-bottom: 3rem;
+                }
+
+                #strategy-prev,
+                #strategy-next {
+                  margin-top: 9.5rem;
+                }
+              }
+
+              @media (max-width:450px) {
+                #strategy-slider-menu {
+                  width: 95%;
+                  height: 15rem;
+                  top: 0.5rem;
+                  margin: 0 2% 0 2%;
+                }
+
+                .sliderlist {
+                  width: 17rem;
+                  height: 17rem;
+                  background-color: white;
+                  display: inline-block;
+                  text-align: center;
+                  border-radius: 5%;
+                  position: relative;
+                  overflow: hidden;
+                  margin: 6rem 1rem 0 1rem;
+                  transition: transform 0.3s;
+                }
+
+                .sliderlist>.img-strategy-list {
+                  width: 17rem;
+                  height: 14rem;
+                  background-size: cover;
+                }
+
+                .sliderlist>.para {
+                  background-color: pink;
+                  padding-bottom: 3rem;
+                }
+
+                #strategy-prev,
+                #strategy-next {
+                  margin-top: 9.5rem;
+                }
+              }
+
+             
+            </style>
+
+
+            <div id="strategy-slider-menu">
+              <div id="strategy-slider-nav">
+                <div id="strategy-prev">
+                  <i class="fa-solid fa-chevron-left"></i>
+                </div>
+                <div id="strategy-next">
+                  <i class="fa-solid fa-chevron-right"></i>
+                </div>
+              </div>
+              <div id="strategy-cards">
+                <div id="box1" class="sliderlist">
+                  <div class="img-strategy-list"></div>
+                  <div class="para" style="background-color: white; padding-bottom: 4rem;">
+                    <h5>eCommerce</h5>
+                  </div>
+                </div>
+
+                <div id="box2" class="sliderlist">
+                  <div class="img-strategy-list"></div>
+                  <div class="para" style="background-color: white; padding-bottom: 4rem;">
+                    <h5>Digital Media</h5>
+                  </div>
+                </div>
+                <div id="box3" class="sliderlist">
+                  <div class="img-strategy-list"></div>
+                  <div class="para" style="background-color: white; padding-bottom: 4rem;">
+                    <h5>Social Media</h5>
+                  </div>
+                </div>
+                <div id="box4" class="sliderlist">
+                  <div class="img-strategy-list"></div>
+                  <div class="para" style="background-color: white; padding-bottom: 4rem;">
+                    <h5>Stategy SEO and Analytics</h5>
+                  </div>
+                </div>
+                <div id="box5" class="sliderlist">
+                  <div class="img-strategy-list"></div>
+                  <div class="para" style="background-color: white; padding-bottom: 4rem;">
+                    <h5>Email Marketing and Automation</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section name="Digital">
+          <div class="slider-digital-bg">
+            <p>Digital Media</p>
+            <hr />
+            <style>
+              .sliderlist {
+                width: 20rem;
+                height: 20rem;
+                background: #e5e5e5;
+                display: inline-block;
+                text-align: center;
+                border-radius: 5%;
+                position: relative;
+                overflow: hidden;
+                margin: 7rem 2rem 0 2rem;
+                cursor: pointer;
+                transition: transform 0.3s;
+              }
+
+              .sliderlist:hover {
+                transform: scale(1.1);
+              }
+
+              .sliderlist>.img-digital-list {
+                width: 20rem;
+                height: 17rem;
+                background-size: cover;
+              }
+
+              .sliderlist>.para {
+                background-color: pink;
+                padding-bottom: 3rem;
+              }
+
+              #digital-slider-menu {
+                position: relative;
+                width: 95%;
+                height: 26rem;
+                top: 1rem;
+                background-color: rgb(241, 241, 241);
+                margin: 0 2rem 0 2rem;
+                /* border-radius: 5rem; */
+              }
+
+              #digital-cards {
+                width: 80%;
+                overflow: hidden;
+                white-space: nowrap;
+                display: block;
+                list-style: none;
+                padding: 0;
+                position: relative;
+                left: 10%;
+                bottom: 60px;
+              }
+
+              .sliderlist p {
+                width: 300px hidden;
+              }
+
+              #digital-prev {
+                display: inline-block;
+                position: absolute;
+                left: 2%;
+                cursor: pointer;
+                font-size: 60px;
+                z-index: 1;
+                width: 50px;
+                height: 50px;
+              }
+
+              #digital-next {
+                display: inline-block;
+                position: absolute;
+                right: 2%;
+                cursor: pointer;
+                font-size: 60px;
+                z-index: 1;
+                width: 50px;
+                height: 50px;
+              }
+
+              #digital-prev,
+              #digital-next {
+                margin-top: 11rem;
+                color: #aaaaaa;
+              }
+
+              @media (min-width: 1026px) {
+                #digital-slider-menu {
+                  width: 95%;
+                  height: 22rem;
+                  top: 0.5rem;
+                  margin: 0 2% 0 2%;
+                }
+
+                .sliderlist {
+                  width: 17rem;
+                  height: 17rem;
+                  background-color: white;
+                  display: inline-block;
+                  text-align: center;
+                  border-radius: 5%;
+                  position: relative;
+                  overflow: hidden;
+                  margin: 6rem 1rem 0 1rem;
+                  transition: transform 0.3s;
+                }
+
+                .sliderlist>.img-digital-list {
+                  width: 17rem;
+                  height: 14rem;
+                  background-size: cover;
+                }
+
+                .sliderlist>.para {
+                  background-color: pink;
+                  padding-bottom: 3rem;
+                }
+
+                #digital-prev,
+                #digital-next {
+                  margin-top: 9.5rem;
+                }
+              }
+            </style>
+
+
+            <div id="digital-slider-menu">
+              <div id="digital-slider-nav">
+                <div id="digital-prev">
+                  <i class="fa-solid fa-chevron-left"></i>
+                </div>
+                <div id="digital-next">
+                  <i class="fa-solid fa-chevron-right"></i>
+                </div>
+              </div>
+              <div id="digital-cards">
+                <div id="box1" class="sliderlist">
+                  <div class="img-digital-list"></div>
+                  <div class="para" style="background-color: white; padding-bottom: 4rem;">
+                    <h5>eCommerce</h5>
+                  </div>
+                </div>
+
+                <div id="box2" class="sliderlist">
+                  <div class="img-digital-list"></div>
+                  <div class="para" style="background-color: white; padding-bottom: 4rem;">
+                    <h5>Digital Media</h5>
+                  </div>
+                </div>
+                <div id="box3" class="sliderlist">
+                  <div class="img-digital-list"></div>
+                  <div class="para" style="background-color: white; padding-bottom: 4rem;">
+                    <h5>Social Media</h5>
+                  </div>
+                </div>
+                <div id="box4" class="sliderlist">
+                  <div class="img-digital-list"></div>
+                  <div class="para" style="background-color: white; padding-bottom: 4rem;">
+                    <h5>Stategy SEO and Analytics</h5>
+                  </div>
+                </div>
+                <div id="box5" class="sliderlist">
+                  <div class="img-digital-list"></div>
+                  <div class="para" style="background-color: white; padding-bottom: 4rem;">
+                    <h5>Email Marketing and Automation</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section name="web-development">
+          <div class="slider-web-bg">
+            <p>Web Design & Development</p>
+            <hr />
+            <style>
+              .sliderlist {
+                width: 20rem;
+                height: 20rem;
+                background: #e5e5e5;
+                display: inline-block;
+                text-align: center;
+                border-radius: 5%;
+                position: relative;
+                overflow: hidden;
+                margin: 7rem 2rem 0 2rem;
+                cursor: pointer;
+                transition: transform 0.3s;
+              }
+
+              .sliderlist:hover {
+                transform: scale(1.1);
+              }
+
+              .sliderlist>.img-web-dev-list {
+                width: 20rem;
+                height: 17rem;
+                background-size: cover;
+              }
+
+              .sliderlist>.para {
+                background-color: pink;
+                padding-bottom: 3rem;
+              }
+
+              #web-dev-slider-menu {
+                position: relative;
+                width: 95%;
+                height: 26rem;
+                top: 1rem;
+                background-color: rgb(241, 241, 241);
+                margin: 0 2rem 0 2rem;
+                /* border-radius: 5rem; */
+              }
+
+              #web-dev-cards {
+                width: 80%;
+                overflow: hidden;
+                white-space: nowrap;
+                display: block;
+                list-style: none;
+                padding: 0;
+                position: relative;
+                left: 10%;
+                bottom: 60px;
+              }
+
+              .sliderlist p {
+                width: 300px hidden;
+              }
+
+              #web-dev-prev {
+                display: inline-block;
+                position: absolute;
+                left: 2%;
+                cursor: pointer;
+                font-size: 60px;
+                z-index: 1;
+                width: 50px;
+                height: 50px;
+              }
+
+              #web-dev-next {
+                display: inline-block;
+                position: absolute;
+                right: 2%;
+                cursor: pointer;
+                font-size: 60px;
+                z-index: 1;
+                width: 50px;
+                height: 50px;
+              }
+
+              #web-dev-prev,
+              #web-dev-next {
+                margin-top: 11rem;
+                color: #aaaaaa;
+              }
+
+              @media (min-width: 1026px) {
+                #web-dev-slider-menu {
+                  width: 95%;
+                  height: 22rem;
+                  top: 0.5rem;
+                  margin: 0 2% 0 2%;
+                }
+
+                .sliderlist {
+                  width: 17rem;
+                  height: 17rem;
+                  background-color: white;
+                  display: inline-block;
+                  text-align: center;
+                  border-radius: 5%;
+                  position: relative;
+                  overflow: hidden;
+                  margin: 6rem 1rem 0 1rem;
+                  transition: transform 0.3s;
+                }
+
+                .sliderlist>.img-web-dev-list {
+                  width: 17rem;
+                  height: 14rem;
+                  background-size: cover;
+                }
+
+                .sliderlist>.para {
+                  background-color: pink;
+                  padding-bottom: 3rem;
+                }
+
+                #web-dev-prev,
+                #web-dev-next {
+                  margin-top: 9.5rem;
+                }
+              }
+            </style>
+
+
+            <div id="web-dev-slider-menu">
+              <div id="web-dev-slider-nav">
+                <div id="web-dev-prev">
+                  <i class="fa-solid fa-chevron-left"></i>
+                </div>
+                <div id="web-dev-next">
+                  <i class="fa-solid fa-chevron-right"></i>
+                </div>
+              </div>
+              <div id="web-dev-cards">
+                <div id="box1" class="sliderlist">
+                  <div class="img-web-dev-list"></div>
+                  <div class="para" style="background-color: white; padding-bottom: 4rem;">
+                    <h5>eCommerce</h5>
+                  </div>
+                </div>
+
+                <div id="box2" class="sliderlist">
+                  <div class="img-web-dev-list"></div>
+                  <div class="para" style="background-color: white; padding-bottom: 4rem;">
+                    <h5>Digital Media</h5>
+                  </div>
+                </div>
+                <div id="box3" class="sliderlist">
+                  <div class="img-web-dev-list"></div>
+                  <div class="para" style="background-color: white; padding-bottom: 4rem;">
+                    <h5>Social Media</h5>
+                  </div>
+                </div>
+                <div id="box4" class="sliderlist">
+                  <div class="img-web-dev-list"></div>
+                  <div class="para" style="background-color: white; padding-bottom: 4rem;">
+                    <h5>Stategy SEO and Analytics</h5>
+                  </div>
+                </div>
+                <div id="box5" class="sliderlist">
+                  <div class="img-web-dev-list"></div>
+                  <div class="para" style="background-color: white; padding-bottom: 4rem;">
+                    <h5>Email Marketing and Automation</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section name="Email">
+          <div class="slider-email-bg">
+            <p>Email and CRM Marketing</p>
+            <hr />
+            <style>
+              .sliderlist {
+                width: 20rem;
+                height: 20rem;
+                background: #e5e5e5;
+                display: inline-block;
+                text-align: center;
+                border-radius: 5%;
+                position: relative;
+                overflow: hidden;
+                margin: 7rem 2rem 0 2rem;
+                cursor: pointer;
+                transition: transform 0.3s;
+              }
+
+              .sliderlist:hover {
+                transform: scale(1.1);
+              }
+
+              .sliderlist>.img-email-list {
+                width: 20rem;
+                height: 17rem;
+                background-size: cover;
+              }
+
+              .sliderlist>.para {
+                background-color: pink;
+                padding-bottom: 3rem;
+              }
+
+              #email-slider-menu {
+                position: relative;
+                width: 95%;
+                height: 26rem;
+                top: 1rem;
+                background-color: rgb(241, 241, 241);
+                margin: 0 2rem 0 2rem;
+                /* border-radius: 5rem; */
+              }
+
+              #email-cards {
+                width: 80%;
+                overflow: hidden;
+                white-space: nowrap;
+                display: block;
+                list-style: none;
+                padding: 0;
+                position: relative;
+                left: 10%;
+                bottom: 60px;
+              }
+
+              .sliderlist p {
+                width: 300px hidden;
+              }
+
+              #email-prev {
+                display: inline-block;
+                position: absolute;
+                left: 2%;
+                cursor: pointer;
+                font-size: 60px;
+                z-index: 1;
+                width: 50px;
+                height: 50px;
+              }
+
+              #email-next {
+                display: inline-block;
+                position: absolute;
+                right: 2%;
+                cursor: pointer;
+                font-size: 60px;
+                z-index: 1;
+                width: 50px;
+                height: 50px;
+              }
+
+              #email-prev,
+              #email-next {
+                margin-top: 11rem;
+                color: #aaaaaa;
+              }
+
+              @media (min-width: 1026px) {
+                #email-slider-menu {
+                  width: 95%;
+                  height: 22rem;
+                  top: 0.5rem;
+                  margin: 0 2% 0 2%;
+                }
+
+                .sliderlist {
+                  width: 17rem;
+                  height: 17rem;
+                  background-color: white;
+                  display: inline-block;
+                  text-align: center;
+                  border-radius: 5%;
+                  position: relative;
+                  overflow: hidden;
+                  margin: 6rem 1rem 0 1rem;
+                  transition: transform 0.3s;
+                }
+
+                .sliderlist>.img-email-list {
+                  width: 17rem;
+                  height: 14rem;
+                  background-size: cover;
+                }
+
+                .sliderlist>.para {
+                  background-color: pink;
+                  padding-bottom: 3rem;
+                }
+
+                #email-prev,
+                #email-next {
+                  margin-top: 9.5rem;
+                }
+              }
+            </style>
+
+
+            <div id="email-slider-menu">
+              <div id="email-slider-nav">
+                <div id="email-prev">
+                  <i class="fa-solid fa-chevron-left"></i>
+                </div>
+                <div id="email-next">
+                  <i class="fa-solid fa-chevron-right"></i>
+                </div>
+              </div>
+              <div id="email-cards">
+                <div id="box1" class="sliderlist">
+                  <div class="img-email-list"></div>
+                  <div class="para" style="background-color: white; padding-bottom: 4rem;">
+                    <h5>eCommerce</h5>
+                  </div>
+                </div>
+
+                <div id="box2" class="sliderlist">
+                  <div class="img-email-list"></div>
+                  <div class="para" style="background-color: white; padding-bottom: 4rem;">
+                    <h5>Digital Media</h5>
+                  </div>
+                </div>
+                <div id="box3" class="sliderlist">
+                  <div class="img-email-list"></div>
+                  <div class="para" style="background-color: white; padding-bottom: 4rem;">
+                    <h5>Social Media</h5>
+                  </div>
+                </div>
+                <div id="box4" class="sliderlist">
+                  <div class="img-email-list"></div>
+                  <div class="para" style="background-color: white; padding-bottom: 4rem;">
+                    <h5>Stategy SEO and Analytics</h5>
+                  </div>
+                </div>
+                <div id="box5" class="sliderlist">
+                  <div class="img-email-list"></div>
+                  <div class="para" style="background-color: white; padding-bottom: 4rem;">
+                    <h5>Email Marketing and Automation</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section name="Health">
+          <div class="slider-health-bg">
+            <p>HealthCare and Pharmaceutical Marketing</p>
+            <hr />
+            <style>
+              .sliderlist {
+                width: 20rem;
+                height: 20rem;
+                background: #e5e5e5;
+                display: inline-block;
+                text-align: center;
+                border-radius: 5%;
+                position: relative;
+                overflow: hidden;
+                margin: 7rem 2rem 0 2rem;
+                cursor: pointer;
+                transition: transform 0.3s;
+              }
+
+              .sliderlist:hover {
+                transform: scale(1.1);
+              }
+
+              .sliderlist>.img-health-list {
+                width: 20rem;
+                height: 17rem;
+                background-size: cover;
+              }
+
+              .sliderlist>.para {
+                background-color: pink;
+                padding-bottom: 3rem;
+              }
+
+              #health-slider-menu {
+                position: relative;
+                width: 95%;
+                height: 26rem;
+                top: 1rem;
+                background-color: rgb(241, 241, 241);
+                margin: 0 2rem 0 2rem;
+                /* border-radius: 5rem; */
+              }
+
+              #health-cards {
+                width: 80%;
+                overflow: hidden;
+                white-space: nowrap;
+                display: block;
+                list-style: none;
+                padding: 0;
+                position: relative;
+                left: 10%;
+                bottom: 60px;
+              }
+
+              .sliderlist p {
+                width: 300px hidden;
+              }
+
+              #health-prev {
+                display: inline-block;
+                position: absolute;
+                left: 2%;
+                cursor: pointer;
+                font-size: 60px;
+                z-index: 1;
+                width: 50px;
+                height: 50px;
+              }
+
+              #health-next {
+                display: inline-block;
+                position: absolute;
+                right: 2%;
+                cursor: pointer;
+                font-size: 60px;
+                z-index: 1;
+                width: 50px;
+                height: 50px;
+              }
+
+              #health-prev,
+              #health-next {
+                margin-top: 11rem;
+                color: #aaaaaa;
+              }
+
+              @media (min-width: 1026px) {
+                #health-slider-menu {
+                  width: 95%;
+                  height: 22rem;
+                  top: 0.5rem;
+                  margin: 0 2% 0 2%;
+                }
+
+                .sliderlist {
+                  width: 17rem;
+                  height: 17rem;
+                  background-color: white;
+                  display: inline-block;
+                  text-align: center;
+                  border-radius: 5%;
+                  position: relative;
+                  overflow: hidden;
+                  margin: 6rem 1rem 0 1rem;
+                  transition: transform 0.3s;
+                }
+
+                .sliderlist>.img-health-list {
+                  width: 17rem;
+                  height: 14rem;
+                  background-size: cover;
+                }
+
+                .sliderlist>.para {
+                  background-color: pink;
+                  padding-bottom: 3rem;
+                }
+
+                #health-prev,
+                #health-next {
+                  margin-top: 9.5rem;
+                }
+              }
+            </style>
+
+
+            <div id="health-slider-menu">
+              <div id="health-slider-nav">
+                <div id="health-prev">
+                  <i class="fa-solid fa-chevron-left"></i>
+                </div>
+                <div id="health-next">
+                  <i class="fa-solid fa-chevron-right"></i>
+                </div>
+              </div>
+              <div id="health-cards">
+                <div id="box1" class="sliderlist">
+                  <div class="img-health-list"></div>
+                  <div class="para" style="background-color: white; padding-bottom: 4rem;">
+                    <h5>eCommerce</h5>
+                  </div>
+                </div>
+
+                <div id="box2" class="sliderlist">
+                  <div class="img-health-list"></div>
+                  <div class="para" style="background-color: white; padding-bottom: 4rem;">
+                    <h5>Digital Media</h5>
+                  </div>
+                </div>
+                <div id="box3" class="sliderlist">
+                  <div class="img-health-list"></div>
+                  <div class="para" style="background-color: white; padding-bottom: 4rem;">
+                    <h5>Social Media</h5>
+                  </div>
+                </div>
+                <div id="box4" class="sliderlist">
+                  <div class="img-health-list"></div>
+                  <div class="para" style="background-color: white; padding-bottom: 4rem;">
+                    <h5>Stategy SEO and Analytics</h5>
+                  </div>
+                </div>
+                <div id="box5" class="sliderlist">
+                  <div class="img-health-list"></div>
+                  <div class="para" style="background-color: white; padding-bottom: 4rem;">
+                    <h5>Email Marketing and Automation</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section name="Graphic">
+          <div class="slider-graphic-bg">
+            <p>Graphic Design and Content Marketing</p>
+            <hr />
+            <style>
+              .sliderlist {
+                width: 20rem;
+                height: 20rem;
+                background: #e5e5e5;
+                display: inline-block;
+                text-align: center;
+                border-radius: 5%;
+                position: relative;
+                overflow: hidden;
+                margin: 7rem 2rem 0 2rem;
+                cursor: pointer;
+                transition: transform 0.3s;
+              }
+
+              .sliderlist:hover {
+                transform: scale(1.1);
+              }
+
+              .sliderlist>.img-graphic-list {
+                width: 20rem;
+                height: 17rem;
+                background-size: cover;
+              }
+
+              .sliderlist>.para {
+                background-color: pink;
+                padding-bottom: 3rem;
+              }
+
+              #graphic-slider-menu {
+                position: relative;
+                width: 95%;
+                height: 26rem;
+                top: 1rem;
+                background-color: rgb(241, 241, 241);
+                margin: 0 2rem 0 2rem;
+                /* border-radius: 5rem; */
+              }
+
+              #graphic-cards {
+                width: 80%;
+                overflow: hidden;
+                white-space: nowrap;
+                display: block;
+                list-style: none;
+                padding: 0;
+                position: relative;
+                left: 10%;
+                bottom: 60px;
+              }
+
+              .sliderlist p {
+                width: 300px hidden;
+              }
+
+              #graphic-prev {
+                display: inline-block;
+                position: absolute;
+                left: 2%;
+                cursor: pointer;
+                font-size: 60px;
+                z-index: 1;
+                width: 50px;
+                height: 50px;
+              }
+
+              #graphic-next {
+                display: inline-block;
+                position: absolute;
+                right: 2%;
+                cursor: pointer;
+                font-size: 60px;
+                z-index: 1;
+                width: 50px;
+                height: 50px;
+              }
+
+              #graphic-prev,
+              #graphic-next {
+                margin-top: 11rem;
+                color: #aaaaaa;
+              }
+
+              @media (min-width: 1026px) {
+                #graphic-slider-menu {
+                  width: 95%;
+                  height: 22rem;
+                  top: 0.5rem;
+                  margin: 0 2% 0 2%;
+                }
+
+                .sliderlist {
+                  width: 17rem;
+                  height: 17rem;
+                  background-color: white;
+                  display: inline-block;
+                  text-align: center;
+                  border-radius: 5%;
+                  position: relative;
+                  overflow: hidden;
+                  margin: 6rem 1rem 0 1rem;
+                  transition: transform 0.3s;
+                }
+
+                .sliderlist>.img-graphic-list {
+                  width: 17rem;
+                  height: 14rem;
+                  background-size: cover;
+                }
+
+                .sliderlist>.para {
+                  background-color: pink;
+                  padding-bottom: 3rem;
+                }
+
+                #graphic-prev,
+                #graphic-next {
+                  margin-top: 9.5rem;
+                }
+              }
+            </style>
+
+
+            <div id="graphic-slider-menu">
+              <div id="graphic-slider-nav">
+                <div id="graphic-prev">
+                  <i class="fa-solid fa-chevron-left"></i>
+                </div>
+                <div id="graphic-next">
+                  <i class="fa-solid fa-chevron-right"></i>
+                </div>
+              </div>
+              <div id="graphic-cards">
+                <div id="box1" class="sliderlist">
+                  <div class="img-graphic-list"></div>
+                  <div class="para" style="background-color: white; padding-bottom: 4rem;">
+                    <h5>eCommerce</h5>
+                  </div>
+                </div>
+
+                <div id="box2" class="sliderlist">
+                  <div class="img-graphic-list"></div>
+                  <div class="para" style="background-color: white; padding-bottom: 4rem;">
+                    <h5>Digital Media</h5>
+                  </div>
+                </div>
+                <div id="box3" class="sliderlist">
+                  <div class="img-graphic-list"></div>
+                  <div class="para" style="background-color: white; padding-bottom: 4rem;">
+                    <h5>Social Media</h5>
+                  </div>
+                </div>
+                <div id="box4" class="sliderlist">
+                  <div class="img-graphic-list"></div>
+                  <div class="para" style="background-color: white; padding-bottom: 4rem;">
+                    <h5>Stategy SEO and Analytics</h5>
+                  </div>
+                </div>
+                <div id="box5" class="sliderlist">
+                  <div class="img-graphic-list"></div>
+                  <div class="para" style="background-color: white; padding-bottom: 4rem;">
+                    <h5>Email Marketing and Automation</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section name="Contest">
+          <div class="slider-contest-bg">
+            <p>Contests and Promotion</p>
+            <hr />
+            <style>
+              .sliderlist {
+                width: 20rem;
+                height: 20rem;
+                background: #e5e5e5;
+                display: inline-block;
+                text-align: center;
+                border-radius: 5%;
+                position: relative;
+                overflow: hidden;
+                margin: 7rem 2rem 0 2rem;
+                cursor: pointer;
+                transition: transform 0.3s;
+              }
+
+              .sliderlist:hover {
+                transform: scale(1.1);
+              }
+
+              .sliderlist>.img-contest-list {
+                width: 20rem;
+                height: 17rem;
+                background-size: cover;
+              }
+
+              .sliderlist>.para {
+                background-color: pink;
+                padding-bottom: 3rem;
+              }
+
+              #contest-slider-menu {
+                position: relative;
+                width: 95%;
+                height: 26rem;
+                top: 1rem;
+                background-color: rgb(241, 241, 241);
+                margin: 0 2rem 0 2rem;
+                /* border-radius: 5rem; */
+              }
+
+              #contest-cards {
+                width: 80%;
+                overflow: hidden;
+                white-space: nowrap;
+                display: block;
+                list-style: none;
+                padding: 0;
+                position: relative;
+                left: 10%;
+                bottom: 60px;
+              }
+
+              .sliderlist p {
+                width: 300px hidden;
+              }
+
+              #contest-prev {
+                display: inline-block;
+                position: absolute;
+                left: 2%;
+                cursor: pointer;
+                font-size: 60px;
+                z-index: 1;
+                width: 50px;
+                height: 50px;
+              }
+
+              #contest-next {
+                display: inline-block;
+                position: absolute;
+                right: 2%;
+                cursor: pointer;
+                font-size: 60px;
+                z-index: 1;
+                width: 50px;
+                height: 50px;
+              }
+
+              #contest-prev,
+              #contest-next {
+                margin-top: 11rem;
+                color: #aaaaaa;
+              }
+
+              @media (min-width: 1026px) {
+                #contest-slider-menu {
+                  width: 95%;
+                  height: 22rem;
+                  top: 0.5rem;
+                  margin: 0 2% 0 2%;
+                }
+
+                .sliderlist {
+                  width: 17rem;
+                  height: 17rem;
+                  background-color: white;
+                  display: inline-block;
+                  text-align: center;
+                  border-radius: 5%;
+                  position: relative;
+                  overflow: hidden;
+                  margin: 6rem 1rem 0 1rem;
+                  transition: transform 0.3s;
+                }
+
+                .sliderlist>.img-contest-list {
+                  width: 17rem;
+                  height: 14rem;
+                  background-size: cover;
+                }
+
+                .sliderlist>.para {
+                  background-color: pink;
+                  padding-bottom: 3rem;
+                }
+
+                #contest-prev,
+                #contest-next {
+                  margin-top: 9.5rem;
+                }
+              }
+            </style>
+
+
+            <div id="contest-slider-menu">
+              <div id="contest-slider-nav">
+                <div id="contest-prev">
+                  <i class="fa-solid fa-chevron-left"></i>
+                </div>
+                <div id="contest-next">
+                  <i class="fa-solid fa-chevron-right"></i>
+                </div>
+              </div>
+              <div id="contest-cards">
+                <div id="box1" class="sliderlist">
+                  <div class="img-contest-list"></div>
+                  <div class="para" style="background-color: white; padding-bottom: 4rem;">
+                    <h5>eCommerce</h5>
+                  </div>
+                </div>
+
+                <div id="box2" class="sliderlist">
+                  <div class="img-contest-list"></div>
+                  <div class="para" style="background-color: white; padding-bottom: 4rem;">
+                    <h5>Digital Media</h5>
+                  </div>
+                </div>
+                <div id="box3" class="sliderlist">
+                  <div class="img-contest-list"></div>
+                  <div class="para" style="background-color: white; padding-bottom: 4rem;">
+                    <h5>Social Media</h5>
+                  </div>
+                </div>
+                <div id="box4" class="sliderlist">
+                  <div class="img-contest-list"></div>
+                  <div class="para" style="background-color: white; padding-bottom: 4rem;">
+                    <h5>Stategy SEO and Analytics</h5>
+                  </div>
+                </div>
+                <div id="box5" class="sliderlist">
+                  <div class="img-contest-list"></div>
+                  <div class="para" style="background-color: white; padding-bottom: 4rem;">
+                    <h5>Email Marketing and Automation</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section name="Audio">
+          <div class="slider-audio-bg">
+            <p>Audio & Video Production</p>
+            <hr style="border:1px solid purple ; margin-left:3rem;" />
+            <style>
+              .sliderlist {
+                width: 20rem;
+                height: 20rem;
+                background: #e5e5e5;
+                display: inline-block;
+                text-align: center;
+                border-radius: 5%;
+                position: relative;
+                overflow: hidden;
+                margin: 7rem 2rem 0 2rem;
+                cursor: pointer;
+                transition: transform 0.3s;
+              }
+
+              .sliderlist:hover {
+                transform: scale(1.1);
+              }
+
+              .sliderlist>.img-audio-list {
+                width: 20rem;
+                height: 17rem;
+                background-size: cover;
+              }
+
+              .sliderlist>.para {
+                background-color: pink;
+                padding-bottom: 3rem;
+              }
+
+              #audio-slider-menu {
+                position: relative;
+                width: 95%;
+                height: 26rem;
+                top: 1rem;
+                background-color: rgb(241, 241, 241);
+                margin: 0 2rem 0 2rem;
+                /* border-radius: 5rem; */
+              }
+
+              #audio-cards {
+                width: 80%;
+                overflow: hidden;
+                white-space: nowrap;
+                display: block;
+                list-style: none;
+                padding: 0;
+                position: relative;
+                left: 10%;
+                bottom: 60px;
+              }
+
+              .sliderlist p {
+                width: 300px hidden;
+              }
+
+              #audio-prev {
+                display: inline-block;
+                position: absolute;
+                left: 2%;
+                cursor: pointer;
+                font-size: 60px;
+                z-index: 1;
+                width: 50px;
+                height: 50px;
+              }
+
+              #audio-next {
+                display: inline-block;
+                position: absolute;
+                right: 2%;
+                cursor: pointer;
+                font-size: 60px;
+                z-index: 1;
+                width: 50px;
+                height: 50px;
+              }
+
+              #audio-prev,
+              #audio-next {
+                margin-top: 11rem;
+                color: #aaaaaa;
+              }
+
+              @media (min-width: 1026px) {
+                #audio-slider-menu {
+                  width: 95%;
+                  height: 22rem;
+                  top: 0.5rem;
+                  margin: 0 2% 0 2%;
+                }
+
+                .sliderlist {
+                  width: 17rem;
+                  height: 17rem;
+                  background-color: white;
+                  display: inline-block;
+                  text-align: center;
+                  border-radius: 5%;
+                  position: relative;
+                  overflow: hidden;
+                  margin: 6rem 1rem 0 1rem;
+                  transition: transform 0.3s;
+                }
+
+                .sliderlist>.img-audio-list {
+                  width: 17rem;
+                  height: 14rem;
+                  background-size: cover;
+                }
+
+                .sliderlist>.para {
+                  background-color: pink;
+                  padding-bottom: 3rem;
+                }
+
+                #audio-prev,
+                #audio-next {
+                  margin-top: 9.5rem;
+                }
+              }
+            </style>
+
+
+            <div id="audio-slider-menu">
+              <div id="audio-slider-nav">
+                <div id="audio-prev">
+                  <i class="fa-solid fa-chevron-left"></i>
+                </div>
+                <div id="audio-next">
+                  <i class="fa-solid fa-chevron-right"></i>
+                </div>
+              </div>
+              <div id="audio-cards">
+                <div id="box1" class="sliderlist">
+                  <div class="img-audio-list"></div>
+                  <div class="para" style="background-color: white; padding-bottom: 4rem;">
+                    <h5>eCommerce</h5>
+                  </div>
+                </div>
+
+                <div id="box2" class="sliderlist">
+                  <div class="img-audio-list"></div>
+                  <div class="para" style="background-color: white; padding-bottom: 4rem;">
+                    <h5>Digital Media</h5>
+                  </div>
+                </div>
+                <div id="box3" class="sliderlist">
+                  <div class="img-audio-list"></div>
+                  <div class="para" style="background-color: white; padding-bottom: 4rem;">
+                    <h5>Social Media</h5>
+                  </div>
+                </div>
+                <div id="box4" class="sliderlist">
+                  <div class="img-audio-list"></div>
+                  <div class="para" style="background-color: white; padding-bottom: 4rem;">
+                    <h5>Stategy SEO and Analytics</h5>
+                  </div>
+                </div>
+                <div id="box5" class="sliderlist">
+                  <div class="img-audio-list"></div>
+                  <div class="para" style="background-color: white; padding-bottom: 4rem;">
+                    <h5>Email Marketing and Automation</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <section class="SpeakToExpert">
+
+        <div class="container-fluid motive">
+          <div class="main" style="    padding: 0px;
+                    margin: 0px;">
+            <h2>Let’s work together to engage your audience and grow your business, today.
+
+            </h2>
+            </br><button style="margin-top: 0px;">
+              Speak to an expert today
+            </button>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- <section class="footer">
+        <style>
+          @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+          body {
+            line-height: 1.5;
+            font-family: 'Poppins', sans-serif;
+          }
+
+          * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+          }
+
+          .footer-container {
+            max-width: 1170px;
+            margin: auto;
+            margin-left: 2rem;
+          }
+
+          .footer-row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: end;
+            gap: 2rem;
+
+          }
+
+          .footer-ul {
+            list-style: none;
+          }
+
+          .footer {
+            background-color: #24262b;
+            padding: 70px 0;
+          }
+
+          .footer-col {
+            /* width: 25%; */
+            padding: 0 15px;
+          }
+
+          .footer-col h4 {
+            font-size: 18px;
+            color: #ffffff;
+            text-transform: capitalize;
+            margin-bottom: 35px;
+            font-weight: 500;
+            position: relative;
+          }
+
+          .footer-col h4::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: -10px;
+            background-color: #e91e63;
+            height: 2px;
+            box-sizing: border-box;
+            width: 50px;
+          }
+
+          .footer-col ul li:not(:last-child) {
+            margin-bottom: 10px;
+          }
+
+          .footer-col ul li a {
+            font-size: 16px;
+            text-transform: capitalize;
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: 300;
+            color: #bbbbbb;
+            display: block;
+            transition: all 0.3s ease;
+          }
+
+          .footer-col ul li a:hover {
+            color: #ffffff;
+            padding-left: 8px;
+          }
+
+          .footer-col .social-links a {
+            display: inline-block;
+            height: 40px;
+            width: 40px;
+            background-color: rgba(255, 255, 255, 0.2);
+            margin: 0 10px 10px 0;
+            text-align: center;
+            line-height: 40px;
+            border-radius: 50%;
+            color: #ffffff;
+            transition: all 0.5s ease;
+          }
+
+          .footer-col .social-links a:hover {
+            color: #24262b;
+            background-color: #ffffff;
+          }
+
+          /*responsive*/
+          @media(max-width: 767px) {
+            .footer-col {
+              width: 50%;
+              margin-bottom: 30px;
+            }
+          }
+
+          @media(max-width: 574px) {
+            .footer-col {
+              width: 100%;
+            }
+          } -->
+    <!-- </style> -->
+    <!-- <footer class="footer">
+          <div class="footer-container">
+            <div class="footer-row">
+              <div class="footer-col">
+                <div id="logo">
+                  <img src="Logo Final Last 24-10-2023/INFINITEGLORY Logo Final-01.svg" />
+                </div>
+                <ul class="footer-ul">
+                  <li>
+                    <p style="font-size: 16px; color:#bbbbbb">Our people, our passion, and our processes</br>
+                      empower you to embrace creativity and</br>
+                      become pioneers without fearing revenue</br>
+                      loss. Break down barriers and feel
+                      it.</p>
+                  </li>
+                </ul>
+              </div>
+              <div class="footer-col">
+                <h4>Navigate</h4>
+                <ul class="footer-ul">
+                  <li><a href="#">about us</a></li>
+                  <li><a href="#">our services</a></li>
+                  <li><a href="#">privacy policy</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                </ul>
+              </div>
+              <div class="footer-col">
+                <h4>Contact Us</h4>
+                <ul class="footer-ul">
+                  <li><a href="#">9914050599</a></li>
+                  <li><a href="#">contact@infiniteglory.in</a></li>
+                  <li><a href="#">returns</a></li>
+
+                </ul>
+              </div>
+
+              <div class="footer-col">
+                <h4>follow us</h4>
+                <div class="social-links">
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </footer> -->
+    <!-- <div class="elementor-element elementor-element-dfd81df elementor-widget elementor-widget-text-editor"
+          data-id="dfd81df" data-element_type="widget"
+          data-widget_type="text-editor.default">
+          <div class="elementor-widget-container" style="    background-color: black;
+          margin-top: -22px;">
+            <p style="text-align: center;color:white;">Infiniteglory <b>©</b> 2023 All Rights
+              Reserved</p>
+          </div>
+         </div> -->
+
+
+    <!--           footer              -->
+
+    <section class="footer">
+
+      <div style="display: flex; flex-wrap: wrap;gap:5rem;color: white;
+          background-color: black;padding:3rem;">
+        <div class="footer_logo_desc" style="margin-right:2rem ;padding-left: 3rem;">
+          <div id="logo">
+            <img style="width: 15rem; height: 3.6rem; margin-top: 1rem;" src="Logo Final Last 24-10-2023/main logo.png" />
+          </div>
+          <div style="margin-top: 1.5rem;">
+            <p style="font-size: 14px;">Our people, our passion, and our processes</br>
+              empower you to embrace creativity and</br>
+              become pioneers without fearing revenue</br>
+              loss. Break down barriers and feel
+              it.</p>
+          </div>
+        </div>
+
+        <div class="elementor-widget-container" style="margin-right:2rem ;padding-left: 3rem;">
+          <h3><strong>NAVIGATE</strong></h3>
+          <p style="padding-left: 12px;"><a href="/services/">Home</a><br>
+            <a href="/about-us/">Services</a><br>
+            <a href="/case-studies/">Case Studies</a><br>
+            <a href="/digital-marketing-white-papers/">Resources</a><br>
+            <a href="/blog/">Blog</a><br>
+            <a href="/about-us/">About us</a><br>
+            <a href="/contact-us/">Contact</a><br>
+            <br>
+          </p>
+        </div>
+
+        <div class="elementor-widget-container" style="margin-right:2rem ;padding-left: 3rem;">
+          <h3>Follow Us</h3>
+          <ul>
+            <li>
+              <image src="fb.png" alt="facebook"
+                style="height: 1.4rem; width: 1.4rem; margin-left: 12px;margin-right: 10px;">
+                Facebook
+            </li>
+            <li>
+              <image src="insta.png" alt="facebook"
+                style="height: 1.4rem; width: 1.4rem; margin-left: 12px;margin-right: 10px;">
+                Instagram
+            </li>
+
+
+            <li>
+              <image src="twitter.png" alt="Twitter"
+                style="height: 1.4rem; width: 1.4rem; margin-left: 12px;margin-right: 10px;"> Twitter
+            </li>
+
+
+            <li>
+              <image src="youtube.png" alt="facebook"
+                style="height: 1.4rem; width: 1.4rem; margin-left: 12px; margin-right: 10px;">Youtube
+            </li>
+
+
+          </ul>
+        </div>
+        <div class="elementor-widget-container" style="margin-right:2rem ;padding-left: 3rem; ">
+          <h3>Contact Us</h3>
+
+
+
+          <p style="font-size: 14px;;"><i class="fa-solid fa-phone" style="padding-right: 10px;"></i>Tel : 9914050599
+          </p>
+          <p style="font-size: 14px; margin-top: .6vw;"><i class="fa-solid fa-envelope"
+              style="padding-right: 10px;"></i>contact@infiniteglory.in</p>
+          <p style="font-size: 14px; margin-top: .6vw;"> <i class="fa-solid fa-link"
+              style="padding-right: 10px;"></i>www.infiniteglory.in</p>
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="elementor-element elementor-element-dfd81df elementor-widget elementor-widget-text-editor"
+        data-id="dfd81df" data-element_type="widget" data-widget_type="text-editor.default">
+        <div class="elementor-widget-container">
+          <p style="text-align: center;color:white; background: #130C1E;">Infiniteglory <b>©</b> 2023 All Rights
+            Reserved</p>
+        </div>
+      </div>
+    </section>
+
+
+    <!--                Footer End                -->
+
+
+
+
+    </section>
+  </div>
+  </div>
+  <style>
+    /* footer Css */
+
+
+    /* Reset list style and add some styles */
+    .elementor-widget-container ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    /* Style list items and icons */
+    .elementor-widget-container ul li {
+      margin: 8px 0;
+      display: flex;
+      align-items: center;
+    }
+
+    /* Style the icons (replace with your actual icon styles or classes) */
+    .elementor-widget-container ul li i {
+      margin-right: 8px;
+      font-size: 24px;
+      /* Adjust the font size to fit your icons */
+    }
+
+    /* Additional styles for the 'Follow Us' section */
+    .elementor-widget-container:nth-child(2) ul li {
+      margin: 6px 0;
+    }
+
+    /* footer css end */
+
+    .sliderlist {
+      width: 20rem;
+      height: 20rem;
+      background: #e5e5e5;
+      display: inline-block;
+      text-align: center;
+      border-radius: 5%;
+      position: relative;
+      overflow: hidden;
+      margin: 7rem 2rem 0 2rem;
+      cursor: pointer;
+      transition: transform 0.3s;
+    }
+
+    .sliderlist:hover {
+      transform: scale(1.1);
+    }
+
+    .sliderlist>.img-social-list {
+      width: 20rem;
+      height: 17rem;
+      background-size: cover;
+    }
+
+    .sliderlist>.para {
+      background-color: pink;
+      padding-bottom: 3rem;
+    }
+
+    #social-slider-menu {
+      position: relative;
+      width: 95%;
+      height: 26rem;
+      top: 1rem;
+      background-color: rgb(241, 241, 241);
+      margin: 0 2rem 0 2rem;
+      /* border-radius: 5rem; */
+    }
+
+    #social-cards {
+      width: 80%;
+      overflow: hidden;
+      white-space: nowrap;
+      display: block;
+      list-style: none;
+      padding: 0;
+      position: relative;
+      left: 10%;
+      bottom: 60px;
+    }
+
+    .sliderlist p {
+      width: 300px hidden;
+    }
+
+    #social-prev {
+      display: inline-block;
+      position: absolute;
+      left: 2%;
+      cursor: pointer;
+      font-size: 60px;
+      z-index: 1;
+      width: 50px;
+      height: 50px;
+    }
+
+    #social-next {
+      display: inline-block;
+      position: absolute;
+      right: 2%;
+      cursor: pointer;
+      font-size: 60px;
+      z-index: 1;
+      width: 50px;
+      height: 50px;
+    }
+
+    #social-prev,
+    #social-next {
+      margin-top: 11rem;
+      color: #aaaaaa;
+    }
+
+    @media (min-width: 1026px) {
+      #social-slider-menu {
+        width: 95%;
+        height: 22rem;
+        top: 0.5rem;
+        margin: 0 2% 0 2%;
+      }
+
+      .sliderlist {
+        width: 17rem;
+        height: 17rem;
+        background-color: white;
+        display: inline-block;
+        text-align: center;
+        border-radius: 5%;
+        position: relative;
+        overflow: hidden;
+        margin: 6rem 1rem 0 1rem;
+        transition: transform 0.3s;
+      }
+
+      .sliderlist>.img-social-list {
+        width: 17rem;
+        height: 14rem;
+        background-size: cover;
+      }
+
+      .sliderlist>.para {
+        background-color: pink;
+        padding-bottom: 3rem;
+      }
+
+      #social-prev,
+      #social-next {
+        margin-top: 9.5rem;
+      }
+    }
+  </style>
+  <style>
+    .img-list {
+      background-size: cover;
+    }
+
+    .sliderlist {
+      width: 20rem;
+      height: 20rem;
+      background: #e5e5e5;
+      display: inline-block;
+      text-align: center;
+      border-radius: 5%;
+      position: relative;
+      overflow: hidden;
+      margin: 7rem 2rem 0 2rem;
+      cursor: pointer;
+      transition: transform 0.3s;
+    }
+
+    .sliderlist:hover {
+      transform: scale(1.1);
+    }
+
+    .sliderlist>.img-list {
+      width: 20rem;
+      height: 17rem;
+    }
+
+    .sliderlist>.para {
+      background-color: pink;
+      padding-bottom: 3rem;
+    }
+
+    #slidermenu {
+      position: relative;
+      width: 95%;
+      height: 26rem;
+      top: 1rem;
+      background-color: rgb(241, 241, 241);
+      margin: 0 2rem 0 2rem;
+      /* border-radius: 5rem; */
+    }
+
+    #mycards {
+      width: 80%;
+      overflow: hidden;
+      white-space: nowrap;
+      display: block;
+      list-style: none;
+      padding: 0;
+      position: relative;
+      left: 10%;
+      bottom: 60px;
+    }
+
+    .sliderlist p {
+      width: 300px hidden;
+    }
+
+    #prev {
+      display: inline-block;
+      position: absolute;
+      left: 2%;
+      cursor: pointer;
+      font-size: 60px;
+      z-index: 1;
+      width: 50px;
+      height: 50px;
+    }
+
+    #next {
+      display: inline-block;
+      position: absolute;
+      right: 2%;
+      cursor: pointer;
+      font-size: 60px;
+      z-index: 1;
+      width: 50px;
+      height: 50px;
+    }
+
+    #prev,
+    #next {
+      margin-top: 11rem;
+      color: #aaaaaa;
+    }
+
+    @media (min-width: 1026px) {
+      #slidermenu {
+        width: 95%;
+        height: 22rem;
+        top: 0.5rem;
+        margin: 0 2% 0 2%;
+      }
+
+      .sliderlist {
+        width: 17rem;
+        height: 17rem;
+        background-color: white;
+        display: inline-block;
+        text-align: center;
+        border-radius: 5%;
+        position: relative;
+        overflow: hidden;
+        margin: 6rem 1rem 0 1rem;
+        transition: transform 0.3s;
+      }
+
+      .sliderlist>.img-list {
+        width: 17rem;
+        height: 14rem;
+      }
+
+      .sliderlist>.para {
+        background-color: pink;
+        padding-bottom: 3rem;
+      }
+
+      #prev,
+      #next {
+        margin-top: 9.5rem;
+      }
+    }
+  </style>
+
+
+  <style>
+    .slider-service-bg {
+      background-color: purple;
+      position: relative;
+      width: 100%;
+      height: 34rem;
+      padding-top: 3rem;
+      padding-bottom: 3rem;
+    }
+
+    .slider-service-bg>p {
+      color: white;
+      font-size: 30px;
+      padding-left: 3rem;
+      font-weight: bolder;
+    }
+
+    .slider-social-bg {
+
+      position: relative;
+      width: 100%;
+      height: 34rem;
+      padding-top: 3rem;
+      padding-bottom: 3rem;
+    }
+
+    .slider-social-bg>p,
+    .slider-ecomm-bg>p,
+    .slider-strategy-bg>p,
+    .slider-digital-bg>p,
+    .slider-web-bg>p,
+    .slider-email-bg>p,
+    .slider-health-bg>p,
+    .slider-graphic-bg>p,
+    .slider-contest-bg>p,
+    .slider-audio-bg>p {
+      color: black;
+      font-size: 30px;
+      padding-left: 3rem;
+      font-weight: bolder;
+      padding-top: 1rem;
+      margin-top: 2rem;
+    }
+
+    .slider-social-bg>hr,
+    .slider-ecomm-bg>hr,
+    .slider-strategy-bg>hr,
+    .slider-email-bg>hr,
+    .slider-health-bg>hr {
+      border: 2px solid blue;
+      margin-left: 3rem;
+    }
+
+    .slider-digital-bg>hr,
+    .slider-web-bg>hr,
+    .slider-graphic-bg>hr,
+    .slider-contest-bg>hr,
+    .slider-audio-bg>hr {
+      border: 2px solid orange;
+      margin-left: 3rem;
+    }
+
+    @media screen and (max-width: 820px) {
+
+      .slider-social-bg>p,
+      .slider-ecomm-bg>p,
+      .slider-strategy-bg>p,
+      .slider-digital-bg>p,
+      .slider-web-bg>p,
+      .slider-email-bg>p,
+      .slider-health-bg>p,
+      .slider-graphic-bg>p,
+      .slider-contest-bg>p,
+      .slider-audio-bg>p {
+        padding-top: 2rem;
+        font-size: 1.2rem;
+      }
+
+      .slider-social-bg,
+      .slider-ecomm-bg,
+      .slider-strategy-bg,
+      .slider-digital-bg,
+      .slider-audio-bg,
+      .slider-web-bg,
+      .slider-email-bg,
+      .slider-health-bg,
+      .slider-graphic-bg,
+      .slider-contest-bg {
+        padding-top: 2rem;
+        margin-top: 2rem;
+      }
+
+
+    }
+  </style>
+  <style>
+    .sliderlist {
+      width: 20rem;
+      height: 20rem;
+      background: #e5e5e5;
+      display: inline-block;
+      text-align: center;
+      border-radius: 5%;
+      position: relative;
+      overflow: hidden;
+      margin: 7rem 2rem 0 2rem;
+      cursor: pointer;
+      transition: transform 0.3s;
+    }
+
+    .sliderlist:hover {
+      transform: scale(1.1);
+    }
+
+    .sliderlist>.img-ecomm-list {
+      width: 20rem;
+      height: 17rem;
+      background-size: cover;
+    }
+
+    .sliderlist>.para {
+      background-color: pink;
+      padding-bottom: 3rem;
+    }
+
+    #ecomm-slider-menu {
+      position: relative;
+      width: 95%;
+      height: 26rem;
+      top: 1rem;
+      background-color: rgb(241, 241, 241);
+      margin: 0 2rem 0 2rem;
+      /* border-radius: 5rem; */
+    }
+
+    #ecomm-cards {
+      width: 80%;
+      overflow: hidden;
+      white-space: nowrap;
+      display: block;
+      list-style: none;
+      padding: 0;
+      position: relative;
+      left: 10%;
+      bottom: 60px;
+    }
+
+    .sliderlist p {
+      width: 300px hidden;
+    }
+
+    #ecomm-prev {
+      display: inline-block;
+      position: absolute;
+      left: 2%;
+      cursor: pointer;
+      font-size: 60px;
+      z-index: 1;
+      width: 50px;
+      height: 50px;
+    }
+
+    #ecomm-next {
+      display: inline-block;
+      position: absolute;
+      right: 2%;
+      cursor: pointer;
+      font-size: 60px;
+      z-index: 1;
+      width: 50px;
+      height: 50px;
+    }
+
+    #ecomm-prev,
+    #ecomm-next {
+      margin-top: 11rem;
+      color: #aaaaaa;
+    }
+
+    @media (min-width: 1026px) {
+      #ecomm-slider-menu {
+        width: 95%;
+        height: 22rem;
+        top: 0.5rem;
+        margin: 0 2% 0 2%;
+      }
+
+      .sliderlist {
+        width: 17rem;
+        height: 17rem;
+        background-color: white;
+        display: inline-block;
+        text-align: center;
+        border-radius: 5%;
+        position: relative;
+        overflow: hidden;
+        margin: 6rem 1rem 0 1rem;
+        transition: transform 0.3s;
+      }
+
+      .sliderlist>.img-ecomm-list {
+        width: 17rem;
+        height: 14rem;
+        background-size: cover;
+      }
+
+      .sliderlist>.para {
+        background-color: pink;
+        padding-bottom: 3rem;
+      }
+
+      #ecomm-prev,
+      #ecomm-next {
+        margin-top: 9.5rem;
+      }
+    }
+  </style>
+  <script>
+    $(document).ready(function () {
+      $('#prev').on('click', function () {
+        $('#mycards').animate({
+          scrollLeft: '-=400'
+        }, 500, 'swing');
+      });
+
+      $('#next').on('click', function () {
+        $('#mycards').animate({
+          scrollLeft: '+=400'
+        }, 500, 'swing');
+      });
+
+      let list = document.querySelectorAll('.img-list');
+      console.log(list);
+      let index = 0;
+      console.log(list[parseInt(index)].style);
+      let bgimages = ['./Our_services_img/Services-01.png', './Our_services_img/Services-02.png', './Our_services_img/Services-03.png',
+        './Our_services_img/Services-04.png', './Our_services_img/Services-05.png', './Our_services_img/Services-06.png'];
+      for (let i = 0; i < bgimages.length; i++) {
+        if (list[i]) {
+          list[i].style.backgroundImage = `url(${bgimages[i]})`;
+
+        }
+      }
+    });
+    $('#social-prev').on('click', function () {
+      $('#social-cards').animate({
+        scrollLeft: '-=400'
+      }, 500, 'swing');
+    });
+
+    $('#social-next').on('click', function () {
+      $('#social-cards').animate({
+        scrollLeft: '+=400'
+      }, 500, 'swing');
+    });
+    let list = document.querySelectorAll('.img-social-list');
+    console.log(list);
+    let index = 0;
+    console.log(list[parseInt(index)].style);
+    let bgimages = ['./sm1.png', './sm2.png', './sm3.png', './sm4.png', './sm5.png'];
+    for (let i = 0; i < bgimages.length; i++) {
+      if (list[i]) {
+        list[i].style.backgroundImage = `url(${bgimages[i]})`;
+      }
+    }
+    $('#ecomm-prev').on('click', function () {
+      $('#ecomm-cards').animate({
+        scrollLeft: '-=400'
+      }, 500, 'swing');
+    });
+
+    $('#ecomm-next').on('click', function () {
+      $('#ecomm-cards').animate({
+        scrollLeft: '+=400'
+      }, 500, 'swing');
+    });
+    let ecommlist = document.querySelectorAll('.img-ecomm-list');
+    console.log(ecommlist);
+
+    let ecommimages = ['./Social_media_img/ecomm1.png', './Social_media_img/ecomm2.png',
+      './Social_media_img/ecomm3.png', './Social_media_img/ecomm4.png', './Social_media_img/ecomm5.png'];
+    for (let i = 0; i < ecommimages.length; i++) {
+      if (ecommlist[i]) {
+        ecommlist[i].style.backgroundImage = `url(${ecommimages[i]})`;
+      }
+    }
+
+    $('#strategy-prev').on('click', function () {
+      $('#strategy-cards').animate({
+        scrollLeft: '-=400'
+      }, 500, 'swing');
+    });
+
+    $('#strategy-next').on('click', function () {
+      $('#strategy-cards').animate({
+        scrollLeft: '+=400'
+      }, 500, 'swing');
+    });
+    let strategylist = document.querySelectorAll('.img-strategy-list');
+    console.log(strategylist);
+
+    console.log(strategylist[parseInt(index)].style);
+    let strategyimages = ['./Social_media_img/seo1.png', './Social_media_img/seo2.png', './Social_media_img/seo3.png',
+      './Social_media_img/seo4.png', './Social_media_img/seo5.png', './Social_media_img/seo5.png', './Social_media_img/seo6.png'];
+    for (let i = 0; i < strategyimages.length; i++) {
+      if (strategylist[i]) {
+        strategylist[i].style.backgroundImage = `url(${strategyimages[i]})`;
+      }
+    }
+    $('#digital-prev').on('click', function () {
+      $('#digital-cards').animate({
+        scrollLeft: '-=400'
+      }, 500, 'swing');
+    });
+
+    $('#digital-next').on('click', function () {
+      $('#digital-cards').animate({
+        scrollLeft: '+=400'
+      }, 500, 'swing');
+    });
+    let digitalist = document.querySelectorAll('.img-digital-list');
+    console.log(digitalist);
+
+    console.log(digitalist[parseInt(index)].style);
+    let digitalimages = ['./Social_media_img/dg1.png', './Social_media_img/dg2.png', './Social_media_img/dg3.png',
+      './Social_media_img/dg4.png', './Social_media_img/dg5.png', './Social_media_img/dg6.png', './Social_media_img/dg7.png',
+      './Social_media_img/dg8.png', './Social_media_img/dg9.png', './Social_media_img/dg10.png'];
+    for (let i = 0; i < digitalimages.length; i++) {
+      if (digitalist[i]) {
+        digitalist[i].style.backgroundImage = `url(${digitalimages[i]})`;
+      }
+    }
+    $('#web-dev-prev').on('click', function () {
+      $('#web-dev-cards').animate({
+        scrollLeft: '-=400'
+      }, 500, 'swing');
+    });
+
+    $('#web-dev-next').on('click', function () {
+      $('#web-dev-cards').animate({
+        scrollLeft: '+=400'
+      }, 500, 'swing');
+    });
+    let weblist = document.querySelectorAll('.img-web-dev-list');
+    console.log(weblist);
+
+    console.log(weblist[parseInt(index)].style);
+    let webimages = ['./Social_media_img/web1.jpg', './Social_media_img/web2.jpg', './Social_media_img/web3.jpg',
+      './Social_media_img/web4.jpg', './Social_media_img/web5.jpg', './Social_media_img/web6.jpg', './Social_media_img/web7.jpg'];
+    for (let i = 0; i < webimages.length; i++) {
+      if (weblist[i]) {
+        weblist[i].style.backgroundImage = `url(${webimages[i]})`;
+      }
+    }
+
+    $('#email-prev').on('click', function () {
+      $('#email-cards').animate({
+        scrollLeft: '-=400'
+      }, 500, 'swing');
+    });
+
+    $('#email-next').on('click', function () {
+      $('#email-cards').animate({
+        scrollLeft: '+=400'
+      }, 500, 'swing');
+    });
+    let emaillist = document.querySelectorAll('.img-email-list');
+    console.log(emaillist);
+
+    console.log(emaillist[parseInt(index)].style);
+    let emailimages = ['./Our_services_img/email-marketing.png', './Our_services_img/mailchimp.png', './Our_services_img/salesforce-mkt.png',
+      './Our_services_img/HubSpot.png', './Our_services_img/sms-marketing.png'];
+    for (let i = 0; i < emailimages.length; i++) {
+      if (emaillist[i]) {
+        emaillist[i].style.backgroundImage = `url(${emailimages[i]})`;
+      }
+    }
+    $('#health-prev').on('click', function () {
+      $('#health-cards').animate({
+        scrollLeft: '-=400'
+      }, 500, 'swing');
+    });
+
+    $('#health-next').on('click', function () {
+      $('#health-cards').animate({
+        scrollLeft: '+=400'
+      }, 500, 'swing');
+    });
+    let healthList = document.querySelectorAll('.img-health-list');
+    console.log(healthList);
+
+    console.log(healthList[parseInt(index)].style);
+    let healthimages = ['./Our_services_img/email-marketing.png', './Our_services_img/mailchimp.png', './Our_services_img/salesforce-mkt.png',
+      './Our_services_img/HubSpot.png', './Our_services_img/sms-marketing.png'];
+    for (let i = 0; i < healthimages.length; i++) {
+      if (healthList[i]) {
+        healthList[i].style.backgroundImage = `url(${healthimages[i]})`;
+      }
+    }
+    $('#graphic-prev').on('click', function () {
+      $('#graphic-cards').animate({
+        scrollLeft: '-=400'
+      }, 500, 'swing');
+    });
+
+    $('#graphic-next').on('click', function () {
+      $('#graphic-cards').animate({
+        scrollLeft: '+=400'
+      }, 500, 'swing');
+    });
+    let graphicList = document.querySelectorAll('.img-graphic-list');
+    console.log(graphicList);
+    console.log(graphicList[parseInt(index)].style);
+    let graphicImages = ['./Our_services_img/gamified-contests.png', './Our_services_img/mailchimp.png', './Our_services_img/salesforce-mkt.png',
+      './Our_services_img/HubSpot.png', './Our_services_img/sms-marketing.png'];
+    for (let i = 0; i < graphicImages.length; i++) {
+      if (graphicList[i]) {
+        graphicList[i].style.backgroundImage = `url(${graphicImages[i]})`;
+      }
+    }
+
+    $('#contest-prev').on('click', function () {
+      $('#contest-cards').animate({
+        scrollLeft: '-=400'
+      }, 500, 'swing');
+    });
+
+    $('#contest-next').on('click', function () {
+      $('#contest-cards').animate({
+        scrollLeft: '+=400'
+      }, 500, 'swing');
+    });
+    let contestList = document.querySelectorAll('.img-contest-list');
+    console.log(contestList);
+
+    console.log(contestList[parseInt(index)].style);
+    let ContestImages = ['./Our_services_img/gamified-contests.png', './Our_services_img/mailchimp.png', './Our_services_img/salesforce-mkt.png',
+      './Our_services_img/HubSpot.png', './Our_services_img/sms-marketing.png'];
+    for (let i = 0; i < ContestImages.length; i++) {
+      if (contestList[i]) {
+        contestList[i].style.backgroundImage = `url(${ContestImages[i]})`;
+      }
+    }
+
+
+    $('#audio-prev').on('click', function () {
+      $('#audio-cards').animate({
+        scrollLeft: '-=400'
+      }, 500, 'swing');
+    });
+
+    $('#audio-next').on('click', function () {
+      $('#audio-cards').animate({
+        scrollLeft: '+=400'
+      }, 500, 'swing');
+    });
+    let audioList = document.querySelectorAll('.img-audio-list');
+    console.log(audioList);
+
+    console.log(audioList[parseInt(index)].style);
+    let AudioImages = ['./Our_services_img/gamified-contests.png', './Our_services_img/mailchimp.png', './Our_services_img/salesforce-mkt.png',
+      './Our_services_img/HubSpot.png', './Our_services_img/sms-marketing.png'];
+    for (let i = 0; i < AudioImages.length; i++) {
+      if (audioList[i]) {
+        audioList[i].style.backgroundImage = `url(${AudioImages[i]})`;
+      }
+    }
+
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>slider</title>
+
+
+  <link rel="stylesheet" href="slider.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+
+
+
+  <div id="audio-slider-menu">
+    <div id="audio-slider-nav">
+      <div id="audio-prev">
+        <i class="fa-solid fa-chevron-left"></i>
+      </div>
+      <div id="audio-next">
+        <i class="fa-solid fa-chevron-right"></i>
+      </div>
+    </div>
+
+
+    <div id="audio-cards">
+      <div id="box1" class="sliderlist">
+        <div class="img-audio-list"></div>
+        <div class="para" style="background-color: white; padding-bottom: 4rem;">
+          <h5>eCommerce</h5>
+        </div>
+      </div>
+
+      <div id="box2" class="sliderlist">
+        <div class="img-audio-list"></div>
+        <div class="para" style="background-color: white; padding-bottom: 4rem;">
+          <h5>Digital Media</h5>
+        </div>
+      </div>
+      <div id="box3" class="sliderlist">
+        <div class="img-audio-list"></div>
+        <div class="para" style="background-color: white; padding-bottom: 4rem;">
+          <h5>Social Media</h5>
+        </div>
+      </div>
+      <div id="box4" class="sliderlist">
+        <div class="img-audio-list"></div>
+        <div class="para" style="background-color: white; padding-bottom: 4rem;">
+          <h5>Stategy SEO and Analytics</h5>
+        </div>
+      </div>
+      <div id="box5" class="sliderlist">
+        <div class="img-audio-list"></div>
+        <div class="para" style="background-color: white; padding-bottom: 4rem;">
+          <h5>Email Marketing and Automation</h5>
+        </div>
+      </div>
+    </div>
+
+    
+  </div>
+
+  
+  <div id="audio-slider-menu">
+    <div id="audio-slider-nav">
+      <div id="audio-prev">
+        <i class="fa-solid fa-chevron-left"></i>
+      </div>
+      <div id="audio-next">
+        <i class="fa-solid fa-chevron-right"></i>
+      </div>
+    </div>
+
+
+    <div id="audio-cards">
+      <div id="box1" class="sliderlist">
+        <div class="img-audio-list"></div>
+        <div class="para" style="background-color: white; padding-bottom: 4rem;">
+          <h5>eCommerce</h5>
+        </div>
+      </div>
+
+      <div id="box2" class="sliderlist">
+        <div class="img-audio-list"></div>
+        <div class="para" style="background-color: white; padding-bottom: 4rem;">
+          <h5>Digital Media</h5>
+        </div>
+      </div>
+      <div id="box3" class="sliderlist">
+        <div class="img-audio-list"></div>
+        <div class="para" style="background-color: white; padding-bottom: 4rem;">
+          <h5>Social Media</h5>
+        </div>
+      </div>
+      <div id="box4" class="sliderlist">
+        <div class="img-audio-list"></div>
+        <div class="para" style="background-color: white; padding-bottom: 4rem;">
+          <h5>Stategy SEO and Analytics</h5>
+        </div>
+      </div>
+      <div id="box5" class="sliderlist">
+        <div class="img-audio-list"></div>
+        <div class="para" style="background-color: white; padding-bottom: 4rem;">
+          <h5>Email Marketing and Automation</h5>
+        </div>
+      </div>
+    </div>
+
+    
+  </div>
+  <script>
+    $('#audio-prev').on('click', function () {
+      $('#audio-cards').animate({
+        scrollLeft: '-=400'
+      }, 500, 'swing');
+    });
+
+    $('#audio-next').on('click', function () {
+      $('#audio-cards').animate({
+        scrollLeft: '+=400'
+      }, 500, 'swing');
+    });
+    let audioList = document.querySelectorAll('.img-audio-list');
+    console.log(audioList);
+    let index = 0;
+    console.log(audioList[parseInt(index)].style);
+    let AudioImages = ['./Our_services_img/gamified-contests.png', './Our_services_img/mailchimp.png', './Our_services_img/salesforce-mkt.png',
+      './Our_services_img/HubSpot.png', './Our_services_img/sms-marketing.png'];
+    for (let i = 0; i < AudioImages.length; i++) {
+      if (audioList[i]) {
+        audioList[i].style.backgroundImage = `url(${AudioImages[i]})`;
+      }
+    }
+
+
+  </script>
+
+
+
+
+
+</body>
+
+</html>
